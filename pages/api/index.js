@@ -46,6 +46,12 @@ export async function getPostsByTag(tag) {
       });
     }
   }
+
+  const array = posts.sort(function (a, b) {
+    return b.id - a.id;
+  });
+
+  return array;
 }
 
 export async function getPostBySlug(slug) {

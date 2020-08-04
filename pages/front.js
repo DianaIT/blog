@@ -5,7 +5,6 @@ import { getConfig, getPostsByTag } from "pages/api";
 import Button from "components/button/index";
 
 export default function Front(props) {
-  console.log(props);
   return (
     <>
       <DefaultLayout title={props.title} descripction={props.description}>
@@ -28,7 +27,7 @@ export default function Front(props) {
   );
 }
 
-Front.getInitialProps = async () => {
+export async function getStaticProps() {
   const config = await getConfig();
   const allPosts = await getPostsByTag("front");
 
@@ -39,4 +38,4 @@ Front.getInitialProps = async () => {
       description: config.description,
     },
   };
-};
+}

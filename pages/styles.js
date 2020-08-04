@@ -48,13 +48,13 @@ export const blog = css`
     font-size: 1.6rem;
     font-weight: bold;
     font-family: "Mulish", sans-serif;
+    margin-right: 15rem;
   }
 
   li {
     margin: 2rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid lightgrey;
-    width: 100%;
   }
 
   span {
