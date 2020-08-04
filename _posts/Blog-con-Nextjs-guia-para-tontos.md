@@ -1,8 +1,9 @@
 ---
 id: 2
-title: "Blog con NextJS, guía para tontos"
+title: "📝 Blog con NextJS"
 author: "DianaIT"
 date: "julio '20"
+tag: "front"
 ---
 
 ### ¿Qué es Next.js?

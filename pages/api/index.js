@@ -14,6 +14,7 @@ export async function getAllPosts() {
       slug: post.replace(".md", ""),
       title: meta.data.title,
       date: meta.data.date,
+      tag: meta.data.tag,
     });
   }
 
@@ -25,6 +26,26 @@ export async function getAllPosts() {
   });
 
   return array;
+}
+
+export async function getPostsByTag(tag) {
+  const context = require.context("../../_posts", false, /\.md$/);
+  const posts = [];
+  for (const key of context.keys()) {
+    const post = key.slice(2);
+    const content = await import(`../../_posts/${post}`);
+    const meta = matter(content.default);
+
+    if (tag === meta.data.tag) {
+      posts.push({
+        id: meta.data.id,
+        slug: post.replace(".md", ""),
+        title: meta.data.title,
+        date: meta.data.date,
+        tag: meta.data.tag,
+      });
+    }
+  }
 }
 
 export async function getPostBySlug(slug) {

@@ -1,11 +1,11 @@
 import Link from "next/link";
 import DefaultLayout from "@layout/default";
 import { blog } from "pages/styles";
-import { getConfig, getAllPosts } from "pages/api";
+import { getConfig, getPostsByTag } from "pages/api";
 import Button from "components/button/index";
 
-export default function Home(props) {
-  const tag = "all";
+export default function Front(props) {
+  console.log(props);
   return (
     <>
       <DefaultLayout title={props.title} descripction={props.description}>
@@ -28,9 +28,9 @@ export default function Home(props) {
   );
 }
 
-export async function getStaticProps() {
+Front.getInitialProps = async () => {
   const config = await getConfig();
-  const allPosts = await getAllPosts();
+  const allPosts = await getPostsByTag("front");
 
   return {
     props: {
@@ -39,4 +39,4 @@ export async function getStaticProps() {
       description: config.description,
     },
   };
-}
+};

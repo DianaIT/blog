@@ -21,7 +21,6 @@ export default css`
 
   nav {
     display: flex;
-    flex-direction: column;
     margin: auto auto;
     padding-left: 0.8rem;
     border-left: 2px solid lightgrey;
@@ -29,6 +28,8 @@ export default css`
   img {
     width: 30px;
     height: 30px;
+    padding: 2px;
+    margin-left: 10px;
   }
 
   h1 {

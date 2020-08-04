@@ -19,21 +19,21 @@ export default function Header() {
               <a> Diana Hernández </a>
             </Link>
           </h1>
-          <h2>Desarrollo web</h2>
+          <h2>Series & Front</h2>
         </section>
         <nav>
           <a href="https://twitter.com/dianait_">
-            <img src="./icons/003-gorjeo.svg" alt="icono twitter" />
+            <img src="../icons/003-gorjeo.svg" alt="icono twitter" />
           </a>
 
           <a href="https://github.com/dianait">
-            <img src="./icons/001-github.svg" alt="icono github" />
+            <img src="../icons/001-github.svg" alt="icono github" />
           </a>
           <a href="https://codepen.io/dashboard">
-            <img src="./icons/002-codepen.svg" alt="icono codepen" />
+            <img src="../icons/002-codepen.svg" alt="icono codepen" />
           </a>
           <a href="https://www.linkedin.com/in/dianahernandezsoler">
-            <img src="./icons/004-linkedin.svg" alt="icono linkedin" />
+            <img src="../icons/004-linkedin.svg" alt="icono linkedin" />
           </a>
         </nav>
       </header>

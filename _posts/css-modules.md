@@ -1,8 +1,9 @@
 ---
 id: 3
-title: "CSS Modules"
+title: " 📝 CSS Modules"
 author: "DianaIT"
 date: "julio '20"
+tag: "front"
 ---
 
 ## ¿Qué es?
@@ -57,9 +58,9 @@ class = "ARCHIVO_CLASE_ID_UNICO" -->
 <h1 class="styles_foo_4xfe1">CSS</h1>
 ```
 
-**This is recommended because the common alternative, kebab-casing may cause unexpected behavior when trying to access style.class-name as a dot notation. You can still work around kebab-case with bracket notation (eg. style['class-name']) but style.className is cleaner.**
-
 ## A tener en cuanta
+
+**This is recommended because the common alternative, kebab-casing may cause unexpected behavior when trying to access style.class-name as a dot notation. You can still work around kebab-case with bracket notation (eg. style['class-name']) but style.className is cleaner.**
 
 CSS Modules are turned on for files ending with the .module.css extension.
 
@@ -75,7 +76,7 @@ Composing from global class names
 
 [**@ahfarmer**](https://twitter.com/ahfarmer)
 
-CSS Modules coge nuestras clases y las hace únicas. Esto nos permite repetir nombres de clases sin miedo a que se produzcan resultados no deseados en el layout de nuestra aplicación. Cada componente tiene su propio CSS, local para ese componente, a pesar de estar escrito en un archivo separado.
+CSS Modules coge nuestras clases y las hace únicas. Esto nos permite repetir nombres de clases sin miedo a que se produzcan resultados no deseados en el layout de nuestra aplicación.
 
 ## Bibliografía
 
@@ -87,9 +88,9 @@ CSS Modules coge nuestras clases y las hace únicas. Esto nos permite repetir no
 
 - [What are CSS Modules and why do we need them? | CSS-Tricks](https://css-tricks.com/css-modules-part-1-need/)
 
-Nota a señoros:
+Disclaimer:
 
-Tú que vas a ver que hay alguna cosa que no está bien explicada, muy probablemente, y quieres hacermelo saber de manera educada, este no es tu disclaimer.
+Tú que vas a ver que hay alguna cosa que no está bien explicadao, muy probablemente, y quieres hacermelo saber de manera educada, este no es tu disclaimer.
 
 No soy ninguna experta en este tema. He escrito esto para aprender CSS Modules, no deja de ser una introducción, puede que esté equivocada en cosas, en algunas o en ninguna, fíjate. Sólo he intentado explicarlo a mi manera, y si le ayuda a alguién por el camino mejor que mejor.
 

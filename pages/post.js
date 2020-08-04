@@ -1,6 +1,6 @@
 import DefaultLayout from "@layout/default";
 import Link from "next/Link";
-import { post } from "../pages/styles";
+import { post } from "./styles";
 export default function PostLayout(props) {
   return (
     <DefaultLayout>
@@ -10,11 +10,6 @@ export default function PostLayout(props) {
           <div>{props.date}</div>
         </section>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
-        <div>
-          <Link href="/">
-            <a>VOLVER</a>
-          </Link>
-        </div>
       </article>
       <style jsx>{post}</style>
     </DefaultLayout>

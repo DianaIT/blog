@@ -1,11 +1,11 @@
 {
-    "compilerOptions": {
-        "baseUrl": "./",
-        "paths": {
-            "@includes/*" : ["_includes/*"],
-            "@layout/*" : ["_layout/*"],
-            "@posts/*" : ["_posts/*"],
-            "@api" : ["pages/api/index"]
-        }
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@includes/*": ["_includes/*"],
+      "@layout/*": ["_layout/*"],
+      "@posts/*": ["_posts/*"],
+      "@api": ["pages/api/index"]
     }
+  }
 }
