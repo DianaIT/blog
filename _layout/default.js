@@ -1,6 +1,5 @@
 import Header from "@includes/header";
-import Footer from "@includes/footer";
-import styles from "pages/styles";
+import { styles } from "pages/styles";
 
 export default function DefaultLayout(props) {
   return (

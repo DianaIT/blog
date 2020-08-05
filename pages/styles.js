@@ -1,6 +1,6 @@
 import css from "styled-jsx/css";
 
-export default css.global`
+export const styles = css.global`
   @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Poiret+One&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
 
