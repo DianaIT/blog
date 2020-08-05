@@ -2,7 +2,8 @@
 id: 2
 title: "📝 Blog con NextJS"
 author: "DianaIT"
-date: "julio '20"
+date: "21/07/20"
+updateAt: ""
 tag: "front"
 ---
 

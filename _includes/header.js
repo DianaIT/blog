@@ -12,7 +12,10 @@ export default function Header() {
         <link rel="shortcut icon" type="icon" href="./img/favicon.ico" />
       </Head>
       <header>
-        <Avatar />
+        <div>
+          <Avatar />
+        </div>
+
         <section>
           <h1>
             <Link href="/">

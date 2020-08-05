@@ -36,7 +36,7 @@ export const styles = css.global`
   }
 
   /* MIRAR POR QUÉ PASA ESTO */
-  p:nth-child(1) > :global(img) {
+  p > :global(img) {
     width: 100%;
   }
 
@@ -52,42 +52,55 @@ export const blog = css`
     src: url("../../fonts/Mulish-Regular.ttf");
   }
 
+  div {
+    display: none;
+  }
+
   ul {
     list-style: none;
-    margin: 1rem 0;
-    padding: 0;
-    margin-left: -28px;
+    width: 100vh;
   }
 
   a {
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: "Mulish", sans-serif;
     font-weight: 400;
-    margin-right: 15rem;
   }
 
   li {
-    margin: 2rem;
-    padding-bottom: 0.5rem;
+    margin: 3rem 0;
+    padding: 0.5rem;
     border-bottom: 1px solid lightgrey;
+    width: 93%;
   }
 
   span {
-    font-family: "Poiret One";
-    font-weight: bold;
+    font-family: Verdana;
+    font-size: 1.2rem;
+    padding: 1rem;
+    padding-left: 0;
     float: right;
-    padding-top: 15px;
+  }
+
+  @media (min-width: 1000px) {
+    div {
+      display: block;
+    }
+
+    span {
+      font-size: 1.1rem;
+      padding-left: 0;
+    }
+
+    a {
+      font-size: 2rem;
+    }
   }
 `;
 /* MIRAR POR QUÉ PASA ESTO */
 export const post = css`
-  /* Gracias Midudev 😄 */
-  p:nth-child(1) > :global(img) {
-    width: 100%;
-  }
-
   h1 {
     text-align: center;
     border-bottom: 1px solid lightgrey;

@@ -5,11 +5,12 @@ import { getPostsByTag } from "pages/api";
 import Button from "components/button/index";
 
 export default function Series(props) {
-  console.log(props);
   return (
     <>
       <DefaultLayout title={props.title} descripction={props.description}>
-        <Button />
+        <div>
+          <Button />
+        </div>
         <ul>
           {props.posts.map(function (post, idx) {
             return (
@@ -17,7 +18,9 @@ export default function Series(props) {
                 <Link href={"posts/" + post.slug}>
                   <a>{post.title}</a>
                 </Link>
-                <span> {post.date} 📅 </span>
+                <section>
+                  <span> 2 minutos ⏲️</span> <span>📅 {post.date} </span>
+                </section>
               </li>
             );
           })}

@@ -1,13 +1,16 @@
 import css from "styled-jsx/css";
 
 export default css`
+  div {
+    display: none;
+  }
   p {
     margin-top: -12px;
   }
   header {
     display: flex;
+    width: 100vh;
     justify-content: space-around;
-    align-items: center;
     margin: 1rem;
   }
   ul {
@@ -19,15 +22,9 @@ export default css`
     border-bottom: 1px solid lightgrey;
   }
 
-  nav {
-    display: flex;
-    margin: auto auto;
-    padding-left: 0.8rem;
-    border-left: 2px solid lightgrey;
-  }
   img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     padding: 2px;
     margin-left: 10px;
   }
@@ -53,19 +50,24 @@ export default css`
     color: black;
   }
 
-  a:visited {
-    color: grey;
-  }
+  @media (min-width: 1000px) {
+    div {
+      display: block;
+    }
+    header {
+      justify-content: center;
+      align-items: center;
+    }
 
-  li {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    width: 8rem;
-    align-items: center;
-  }
+    nav {
+      border-left: 2px solid lightgrey;
+    }
 
-  li:hover {
-    padding-top: 0;
-    border-top: 2px solid grey;
+    img {
+      width: 30px;
+      height: 30px;
+      padding: 2px;
+      margin-left: 10px;
+    }
   }
 `;
