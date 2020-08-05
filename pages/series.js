@@ -1,6 +1,6 @@
 import Link from "next/link";
 import DefaultLayout from "@layout/default";
-import { blog } from "pages/styles";
+import { blog } from "@layout/styles";
 import { getPostsByTag } from "pages/api";
 import Button from "components/button/index";
 

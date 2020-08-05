@@ -1,7 +1,7 @@
 import Link from "next/link";
 import DefaultLayout from "@layout/default";
-import { blog } from "pages/styles";
-import { getAllPosts, getPostsByTag } from "pages/api";
+import { blog } from "@layout/styles";
+import { getAllPosts } from "pages/api";
 import Button from "components/button/index";
 
 export default function Home(props) {

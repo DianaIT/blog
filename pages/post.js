@@ -1,5 +1,5 @@
 import DefaultLayout from "@layout/default";
-import { post } from "./styles";
+import { post } from "../_layout/styles";
 export default function PostLayout(props) {
   return (
     <DefaultLayout>
