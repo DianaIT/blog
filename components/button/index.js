@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/Link";
 import { button } from "./style";
 
 export default function Button() {

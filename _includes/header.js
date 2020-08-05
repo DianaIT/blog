@@ -29,9 +29,6 @@ export default function Header() {
           <a href="https://github.com/dianait">
             <img src="../icons/001-github.svg" alt="icono github" />
           </a>
-          <a href="https://codepen.io/dashboard">
-            <img src="../icons/002-codepen.svg" alt="icono codepen" />
-          </a>
           <a href="https://www.linkedin.com/in/dianahernandezsoler">
             <img src="../icons/004-linkedin.svg" alt="icono linkedin" />
           </a>

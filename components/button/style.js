@@ -6,6 +6,7 @@ export const button = css`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
   }
 
   ul li {

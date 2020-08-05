@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from "next/Link";
 import DefaultLayout from "@layout/default";
 import { blog } from "pages/styles";
-import { getConfig, getPostsByTag } from "pages/api";
+import { getPostsByTag } from "pages/api";
 import Button from "components/button/index";
 
 export default function Series(props) {
@@ -29,14 +29,11 @@ export default function Series(props) {
 }
 
 export async function getStaticProps() {
-  const config = await getConfig();
   const allPosts = await getPostsByTag("series");
 
   return {
     props: {
       posts: allPosts,
-      title: config.title,
-      description: config.description,
     },
   };
 }

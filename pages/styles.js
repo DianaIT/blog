@@ -4,9 +4,21 @@ export default css.global`
   @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Poiret+One&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
 
+  @font-face {
+    font-family: "Amatic";
+    src: url("../../fonts/AmaticSC-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Amatic";
+    src: url("../../fonts/AmaticSC-Regular.ttf");
+  }
+
   main {
     min-height: 100vh;
-    padding: 0 0.5rem;
+    width: 100vh;
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +47,11 @@ export default css.global`
 `;
 
 export const blog = css`
-  @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+  @font-face {
+    font-family: "Mulish";
+    src: url("../../fonts/Mulish-Regular.ttf");
+  }
+
   ul {
     list-style: none;
     margin: 1rem 0;
@@ -48,6 +64,7 @@ export const blog = css`
     font-size: 1.6rem;
     font-weight: bold;
     font-family: "Mulish", sans-serif;
+    font-weight: 400;
     margin-right: 15rem;
   }
 
@@ -80,7 +97,6 @@ export const post = css`
     width: 80%;
     margin: 0 auto;
     text-align: justify;
-    margin-bottom: 4rem;
   }
 
   a {
@@ -91,7 +107,7 @@ export const post = css`
 
   @media (min-width: 1000px) {
     article {
-      width: 40%;
+      width: 80%;
       font-size: 1.1em;
     }
   }

@@ -1,8 +1,9 @@
-import Link from "next/link";
+import Link from "next/Link";
 import DefaultLayout from "@layout/default";
 import { blog } from "pages/styles";
-import { getConfig, getAllPosts } from "pages/api";
+import { getAllPosts, getPostsByTag } from "pages/api";
 import Button from "components/button/index";
+import Router from "next/Router";
 
 export default function Home(props) {
   const tag = "all";
@@ -28,15 +29,12 @@ export default function Home(props) {
   );
 }
 
-export async function getStaticProps() {
-  const config = await getConfig();
+export async function getStaticProps(Router) {
   const allPosts = await getAllPosts();
 
   return {
     props: {
       posts: allPosts,
-      title: config.title,
-      description: config.description,
     },
   };
 }
