@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import DefaultLayout from "@layout/default";
 import { blog } from "pages/styles";
 import { getPostsByTag } from "pages/api";

@@ -1,5 +1,5 @@
 import styleAvatar from "./styleAvatar";
-import Link from "next/Link";
+import Link from "next/link";
 
 export default function Avatar() {
   return (
