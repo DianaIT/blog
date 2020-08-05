@@ -1,5 +1,4 @@
 import DefaultLayout from "@layout/default";
-import Link from "next/link";
 import { post } from "./styles";
 export default function PostLayout(props) {
   return (

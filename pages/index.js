@@ -3,7 +3,6 @@ import DefaultLayout from "@layout/default";
 import { blog } from "pages/styles";
 import { getAllPosts, getPostsByTag } from "pages/api";
 import Button from "components/button/index";
-import Router from "next/Router";
 
 export default function Home(props) {
   const tag = "all";
