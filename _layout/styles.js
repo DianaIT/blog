@@ -21,7 +21,6 @@ export const styles = css.global`
     padding: 1rem 0.5rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   * {
@@ -113,12 +112,19 @@ export const post = css`
   }
   article {
     font-family: Verdana;
-    width: 85%;
-    font-size: 1.6rem;
+    width: 90vh;
     margin: 0 auto;
+    font-size: 1.6rem;
     text-align: justify;
   }
 
+  :global(code) {
+    font-size: 1rem;
+  }
+
+  .language-javascript {
+    font-size: 0.6rem;
+  }
   a {
     text-decoration: none;
     font-family: Verdana;
@@ -129,6 +135,10 @@ export const post = css`
     article {
       width: 80%;
       font-size: 1.1em;
+    }
+
+    :global(code) {
+      font-size: 1.1rem;
     }
   }
 `;

@@ -1,6 +1,6 @@
 ---
-id: 5
-title: " 📝 Custom snippets en VSC"
+id: 3
+title: "📝 Custom snippets en VSC"
 author: "DianaIT"
 date: "5/08/20"
 updateAt: ""
@@ -21,24 +21,27 @@ Una vez elegido el lenguaje nos abrirá un documento, en este caso, _javascript.
 Estos archivos de snippets se guardan en:
 
 ```javascript
-Windows: %APPDATA%\Code\User\snippets\javascript.json
-Mac: $HOME/Library/Application Support/Code/User/snippets/javascript.json
-Linux: $HOME/.config/Code/User/snippets/javascript.json
+🏠 Windows: %APPDATA%\Code\User\snippets
+🍎 Mac: $HOME/Library/Application Support/Code/User/snippets
+🐦 Linux:  $HOME/.config/Code/User/snippets
 ```
 
 #### 🍆 Estructura
 
 ```javascript
 {
-  "Page next": { // Nombre
-    "prefix": "page", // Abrebiatura para "llamar" al snippet
+  // Nombre
+  "Page next": {
+    // Abrebiatura para "llamar" al snippet
+    "prefix": "page",
     "body": [
       "export default function $1({$2}){"
         "return"
           "(<>$3</>)"
       "}"
     ],
-    "description": "A new Peage en Next.js" // Opcional
+    // Opcional
+    "description": "A new Peage en Next.js"
   }
 }
 ```
@@ -65,12 +68,10 @@ Así que ya solo faltaría irnos a nuestro documento escribir el **prefix** y pu
 Podeis acceder a este archivo desde **Paleta de comandos > Configure language specifics settings...** Aunque aquí teneis la ruta, por si quereis acceder por aquí.
 
 ```javascript
-Windows: %APPDATA%\Code\User\Settings.json
-Mac: $HOME/Library/Application Support/Code/User/Setting.json
-Linux: $HOME/.config/Code/User/Settings.json
+🏠 Windows: %APPDATA%\Code\Use
+🍎 Mac: $HOME/Library/Application Support/Code/User
+🐦 Linux: $HOME/.config/Code/User
 ```
-
-\$HOME/.config/Code/User/snippets/
 
 #### 🍄 ¿Algo más eleborado?
 

@@ -24,7 +24,6 @@ export async function getAllPosts() {
   const array = posts.sort(function (a, b) {
     return b.id - a.id;
   });
-
   return array;
 }
 

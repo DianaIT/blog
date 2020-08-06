@@ -1,6 +1,6 @@
 ---
 id: 1
-title: " 📝 Elementary como Mac"
+title: "📝 Elementary como Mac"
 author: "DianaIT"
 date: "13/07/19"
 updateAt: ""
