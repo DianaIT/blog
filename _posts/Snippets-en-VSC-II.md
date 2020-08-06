@@ -1,5 +1,5 @@
 ---
-id: 6
+id: 4
 title: "📝 Custom snippets en VSC (II)"
 author: "DianaIT"
 date: "06/08/20"
