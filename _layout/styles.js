@@ -26,8 +26,8 @@ export const styles = css.global`
 
   * {
     box-sizing: border-box;
-    margin: 0.2;
-    padding: 0.2;
+    margin: 0.1;
+    padding: 0.1;
   }
 
   h1 {
@@ -63,7 +63,7 @@ export const blog = css`
 
   a {
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     font-family: "Mulish", sans-serif;
     font-weight: 400;
@@ -90,12 +90,17 @@ export const blog = css`
     }
 
     span {
-      font-size: 1.1rem;
-      padding-left: 0;
+      font-size: 0.9rem;
+      margin-left: 0;
+      margin-top: -7px;
+    }
+
+    li {
+      padding: 0.2rem;
     }
 
     a {
-      font-size: 2rem;
+      font-size: 1.3rem;
     }
   }
 `;
@@ -104,10 +109,12 @@ export const post = css`
   h1 {
     text-align: center;
     border-bottom: 1px solid lightgrey;
+    padding-bottom: 0.8rem;
   }
   article {
     font-family: Verdana;
-    width: 80%;
+    width: 85%;
+    font-size: 1.6rem;
     margin: 0 auto;
     text-align: justify;
   }

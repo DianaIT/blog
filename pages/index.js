@@ -18,7 +18,7 @@ export default function Home(props) {
                 <Link href={"posts/" + post.slug}>
                   <a>{post.title}</a>
                 </Link>
-                <span> ⏲️ 2'</span> <span>📅 {post.date} </span>
+                <span> {post.date} 📅 </span>
               </li>
             );
           })}
