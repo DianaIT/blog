@@ -1,4 +1,4 @@
-import css from "styled-jsx/css";
+import css from "styled-jsx/css"
 
 export const styles = css.global`
   @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Poiret+One&display=swap");
@@ -43,7 +43,7 @@ export const styles = css.global`
     width: 60%;
     margin: 0 auto;
   }
-`;
+`
 
 export const blog = css`
   @font-face {
@@ -102,7 +102,7 @@ export const blog = css`
       font-size: 1.3rem;
     }
   }
-`;
+`
 /* MIRAR POR QUÉ PASA ESTO */
 export const post = css`
   h1 {
@@ -115,7 +115,7 @@ export const post = css`
     width: 90vh;
     margin: 0 auto;
     font-size: 1.6rem;
-    text-align: justify;
+    max-width: 650px;
   }
 
   :global(code) {
@@ -134,11 +134,13 @@ export const post = css`
   @media (min-width: 1000px) {
     article {
       width: 80%;
-      font-size: 1.1em;
+      color: #333;
+      font-size: 18px;
+      line-height: 28px;
     }
 
     :global(code) {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
-`;
+`
