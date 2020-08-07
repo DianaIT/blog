@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="./public/img/header.png" alt="header blog" />
+<img align="center" src="/public/img/header.PNG" alt="header blog" />
 <p  align="center">💜 | 💻 | 🏳️‍🌈 | 🖖 | 📺 | ☕ | ✈️ | 😆</p>
 </p>
 
