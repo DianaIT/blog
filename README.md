@@ -22,7 +22,7 @@ Esto es **Series & Front** ¿Me acompañas?
 
 <p align="center" > <a hef="https://dianait.vercel.app">SERIES & FRONT</a></pS>
 
-:hammer: Este blog hecho con _Next.js_, pero sobre todo con ❤️.
+:hammer: Este blog está hecho con _Next.js_, pero sobre todo con ❤️.
 
 📚 _sources:_
 
