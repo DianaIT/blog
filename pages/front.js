@@ -1,8 +1,8 @@
-import Link from "next/link";
-import DefaultLayout from "@layout/default";
-import { blog } from "@layout/styles";
-import { getPostsByTag } from "pages/api";
-import Button from "components/button/index";
+import Link from "next/link"
+import DefaultLayout from "@layout/default"
+import { blog } from "@layout/styles"
+import { getPostsByTag } from "pages/api"
+import Button from "components/button/index"
 
 export default function Front(props) {
   return (
@@ -22,21 +22,21 @@ export default function Front(props) {
                   <span> 2 minutos ⏲️</span> <span>📅 {post.date} </span>
                 </section>
               </li>
-            );
+            )
           })}
         </ul>
         <style jsx>{blog}</style>
       </DefaultLayout>
     </>
-  );
+  )
 }
 
 export async function getStaticProps() {
-  const allPosts = await getPostsByTag("front");
+  const allPosts = await getPostsByTag("front")
 
   return {
     props: {
       posts: allPosts,
     },
-  };
+  }
 }

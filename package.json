@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
+    "lint": "eslint . --fix",
     "start": "next start"
   },
   "keywords": [
@@ -24,10 +25,30 @@
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-standard": "^4.0.1",
     "gray-matter": "^4.0.2",
+    "husky": "^4.2.5",
     "js-yaml": "^3.14.0",
+    "lint-staged": "^10.2.11",
     "marked": "^1.1.1",
+    "prettier": "^2.0.5",
     "raw-loader": "^4.0.1",
     "webpack": "^4.44.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
