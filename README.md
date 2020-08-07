@@ -20,7 +20,7 @@
 🖖 Así que soy friki seriefila prácticamente desde que nací. El desarrollo web vino después. Y el otro día pensé ¿Por qué no crear un blog para juntar mis dos grandes pasiones?
 Esto es **Series & Front** ¿Me acompañas?
 
-<p align="center" > <a hef="https://dianait.vercel.app">SERIES & FRONT</a></pS>
+<p align="center" > <a href="https://dianait.vercel.app">SERIES & FRONT</a></p>
 
 :hammer: Este blog está hecho con _Next.js_, pero sobre todo con ❤️.
 
