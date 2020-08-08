@@ -25,9 +25,7 @@ No se trata de una especeficacion oficial, es más bien un proceso que se realiz
 
 Sin CSS Modules cada documento .css tiene un ámbito global, si repetimos una clase en 2 archivos diferentes, 2 clases o 2 elementos html, y tenemos importados los dos archivos no tenemos ningún control sobre los estilos que estamos aplicando a nuestra aplicación.
 
-Bueno, para ser exactos, realmente si lo tenemos, ya que por algo esta lo de **\*Cascading** style sheets.\* Existe una jerarquía que nos dice que el último archivo importando será el ganador, siempre y cuando el selector sea más especifico, pero seamos honestos, hacer esto está regular\*.
-
-\*MAL
+Bueno, para ser exactos, realmente si lo tenemos, ya que por algo esta lo de **\*Cascading** style sheets.\* Existe una jerarquía que nos dice que el último archivo importando será el ganador, siempre y cuando el selector sea más especifico, pero nos puede dar más de un problema si controlamos CSS correctamente.
 
 ## 🔨 ¿Cómo funciona?
 
