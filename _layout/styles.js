@@ -51,16 +51,53 @@ export const blog = css`
     src: url("../../fonts/Mulish-Regular.ttf");
   }
 
+  ul.button {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  ul.button li {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1.4rem;
+    border-radius: 10px;
+    font-family: "Poiret One";
+    font-weight: bold;
+    display: block;
+    border: 1px solid white;
+  }
+
+  button {
+    padding: 0.7rem 3rem;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+
+  button:hover,
+  .active {
+    background-color: lightgrey;
+  }
+
+  a.button {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+
   div {
     display: none;
   }
 
-  ul {
+  ul.articles {
     list-style: none;
     width: 100vh;
   }
 
-  a {
+  a.articles {
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
@@ -68,14 +105,14 @@ export const blog = css`
     font-weight: 400;
   }
 
-  li {
+  li.articles {
     margin: 3rem 0;
     padding: 0.5rem;
     border-bottom: 1px solid lightgrey;
     width: 93%;
   }
 
-  span {
+  span.articles {
     font-family: Verdana;
     font-size: 1.2rem;
     padding: 1rem;
@@ -88,17 +125,22 @@ export const blog = css`
       display: block;
     }
 
-    span {
+    span.articles {
       font-size: 0.9rem;
       margin-left: 0;
       margin-top: -7px;
     }
 
-    li {
+    li.articles {
       padding: 0.2rem;
+      display: block;
     }
 
-    a {
+    li.articles:hover {
+      transform: scale(1.1);
+    }
+
+    a.articles {
       font-size: 1.3rem;
     }
   }
