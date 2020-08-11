@@ -107,11 +107,11 @@ Nos va a hacer una serie de preguntas para configurar ESLint. Si usamos TypeScri
 
 Nos pedirá instalar algunas dependencias necesarias y ahora tendremos un archivo _.eslintrc.js_ en la raíz desde nuestro proyecto parecido a este:
 
-![.eslintrc.js](../img/eslint.png)
+![.eslintrc.js](../img/eslint.PNG)
 
 - instalar la extensión eslint
 
-![extension ESLint para VSC](../img/eslintextension.png)
+  ![extension ESLint para VSC](../img/eslintextension.PNG)
 
 #### 🎯 Comandos
 
