@@ -15,18 +15,18 @@ export const styles = css.global`
   }
 
   main {
-    min-height: 100vh;
-    width: 100vh;
     margin: 0 auto;
+    width: 100vh;
     padding: 1rem 0.5rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   * {
     box-sizing: border-box;
-    margin: 0.1;
-    padding: 0.1;
+    margin: 0.1rem;
+    padding: 0.1rem;
   }
 
   h1 {
@@ -88,61 +88,6 @@ export const blog = css`
     font-size: 18px;
   }
 
-  div {
-    display: none;
-  }
-
-  ul.articles {
-    list-style: none;
-    width: 100vh;
-  }
-
-  a.articles {
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: bold;
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
-  }
-
-  li.articles {
-    margin: 3rem 0;
-    padding: 0.5rem;
-    border-bottom: 1px solid lightgrey;
-    width: 93%;
-  }
-
-  span.articles {
-    font-family: Verdana;
-    font-size: 0.8rem;
-    padding: 1rem;
-    padding-left: 0;
-    float: right;
-  }
-
-  @media (min-width: 1000px) {
-    div {
-      display: block;
-    }
-
-    span.articles {
-      font-size: 0.9rem;
-      margin-left: 0;
-      margin-top: -7px;
-    }
-
-    li.articles {
-      padding: 0.2rem;
-      display: block;
-    }
-
-    /*     li.articles:hover {
-      transform: scale(1.1);
-    } */
-
-    a.articles {
-      font-size: 1.3rem;
-    }
   }
 `
 /* MIRAR POR QUÉ PASA ESTO */
@@ -155,10 +100,9 @@ export const post = css`
   }
   article {
     font-family: Verdana;
-    width: 90vh;
+    width: 95%;
     margin: 0 auto;
-    font-size: 1.6rem;
-    max-width: 650px;
+    font-size: 1.2rem;
   }
 
   :global(code) {
@@ -176,10 +120,10 @@ export const post = css`
 
   @media (min-width: 1000px) {
     article {
-      width: 80%;
       color: #333;
       font-size: 18px;
       line-height: 28px;
+      width: 90%;
     }
 
     :global(code) {

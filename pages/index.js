@@ -1,8 +1,8 @@
-import Link from "next/link"
 import DefaultLayout from "@layout/default"
 import { blog } from "@layout/styles"
 import { getAllPosts, getPostsByTag } from "pages/api"
 import { useState, useEffect } from "react"
+import PostPreview from "components/postPreview/index"
 
 export default function Home(props) {
   const [tag, setTag] = useState("all")
@@ -27,7 +27,6 @@ export default function Home(props) {
   useEffect(() => {
     async function fetchData() {
       const response = await getAllPosts()
-
       setPosts(response)
     }
     fetchData()
@@ -64,14 +63,7 @@ export default function Home(props) {
         </div>
         <ul className="articles">
           {posts.map(function (post, idx) {
-            return (
-              <li className="articles" key={idx}>
-                <Link href={"posts/" + post.slug}>
-                  <a className="articles">{post.title}</a>
-                </Link>
-                <span className="articles"> {post.date} 📅 </span>
-              </li>
-            )
+            return <PostPreview post={post} key={idx} />
           })}
         </ul>
         <style jsx>{blog}</style>
@@ -79,16 +71,3 @@ export default function Home(props) {
     </>
   )
 }
-
-/*
-export async function getStaticProps() {
-  const allPosts = await getAllPosts()
-
-  return {
-    props: {
-      posts: allPosts,
-    },
-  }
-}
-
-*/

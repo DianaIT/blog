@@ -1,10 +1,10 @@
 ---
 id: 6
-title: "📝 Prettier y Eslint juntos pero no revueltos"
-tag: 📝
+title: "📝 Prettier y Eslint juntos, pero no revueltos"
 author: "DianaIT"
 date: "11/08/20"
 updateAt: ""
+tag: "front"
 ---
 
 **Prettier** y **ESLint** se pelean entre ellos porque los dos se preocupan por formatear tu código, pero con la configuración adecuada puedes tener lo mejor de cada uno en todos tus proyectos.

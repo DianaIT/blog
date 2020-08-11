@@ -10,6 +10,7 @@ export default css`
   header {
     display: flex;
     width: 100vh;
+    align-items: center;
     justify-content: space-between;
     margin: 0.3rem;
   }
