@@ -1,18 +1,9 @@
 <p align="center">
 <img align="center" src="/public/img/header.PNG" alt="header blog" />
-<p  align="center">💜 | 💻 | 🏳️‍🌈 | 🖖 | 📺 | ☕ | ✈️ | 😆</p>
-</p>
-
-<p align="center">
-
-  <a href="https://twitter.com/dianait_" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="midudev" height="20px" width="20px" />
-  </a>
-      <a href="https://instagram.com/dianait" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="midu.dev" height="20px" width="20px" />
-  <a href="https://www.linkedin.com/in/dianahernandezsoler/" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="midu.dev" height="20px" width="20px" />
-  </a>
+<p align="center"><a href="https://twitter.com/dianait_"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/twitter.svg" alt="dianait_" width="30"/></a>
+<a href="https://www.linkedin.com/in/dianahernandezsoler/"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/linkedin.svg" alt="dianahernandezsoler" width="30"/></a>
+<a href="https://www.instagram.com/dianait_"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/instagram.svg" alt="dianait" width="30"/></a>
+<a href="https://dianait.vercel.app"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/SFlogo.PNG" alt="series & Front" width="34"/></a>
 </p>
 
 📺 Nací en el año en que unos lagartos vestidos de rojo aterrorizaban la televisión; Cuenta mi progenitora que debido a mi nacimiento se perdió el desenlace de V. Y para recordármelo de por vida me llamo **Diana**.
