@@ -1,4 +1,4 @@
-import css from "styled-jsx/css";
+import css from "styled-jsx/css"
 
 export default css`
   div {
@@ -10,8 +10,8 @@ export default css`
   header {
     display: flex;
     width: 100vh;
-    justify-content: space-around;
-    margin: 1rem;
+    justify-content: space-between;
+    margin: 0.3rem;
   }
   ul {
     display: flex;
@@ -22,26 +22,14 @@ export default css`
     border-bottom: 1px solid lightgrey;
   }
 
-  img {
-    width: 50px;
-    height: 50px;
-    padding: 2px;
-    margin-left: 10px;
+  nav > a > img {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
   }
 
-  h1 {
-    font-family: "Amatic SC", cursive;
-    font-size: 4rem;
-    margin: 0;
-    margin-left: -30px;
-    margin-right: 1.4rem;
-  }
-
-  h2 {
-    font-family: "Poiret One", cursive;
-    letter-spacing: 12px;
-    margin-top: -0.8rem;
-    margin-left: -26px;
+  nav {
+    margin-right: 64px;
   }
 
   a {
@@ -54,20 +42,17 @@ export default css`
     div {
       display: block;
     }
-    header {
-      justify-content: center;
-      align-items: center;
-    }
 
-    nav {
-      border-left: 2px solid lightgrey;
+    header {
+      justify-content: space-between;
+      align-items: center;
     }
 
     img {
       width: 30px;
       height: 30px;
       padding: 2px;
-      margin-left: 10px;
+      margin-right: 10px;
     }
   }
-`;
+`

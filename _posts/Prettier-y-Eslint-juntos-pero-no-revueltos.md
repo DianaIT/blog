@@ -1,0 +1,187 @@
+---
+id: 6
+title: "📝 Prettier y Eslint juntos pero no revueltos"
+tag: 📝
+author: "DianaIT"
+date: "11/08/20"
+updateAt: ""
+---
+
+**Prettier** y **ESLint** se pelean entre ellos porque los dos se preocupan por formatear tu código, pero con la configuración adecuada puedes tener lo mejor de cada uno en todos tus proyectos.
+
+---
+
+##### 📔 RESUMEN
+
+PRETTIER
+
+```javascript
+1. npm install prettier -D
+2. Crear .prettierrc.json en ./
+3. Actualizar _settings.json_ con
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      }
+4. Instalar extensión Prettier
+```
+
+ESLINT
+
+```bash
+1. npm install eslint -D
+2. npx eslint --init
+3. Instalar exptensión ESLint
+
+```
+
+EVITAR CONFLICTOS
+
+```javascript
+1. npm install eslint-config-prettier -D
+2. Actualizar .eslintrc.js con "Prettier" en útlimo lugar
+
+  extends: [
+            "plugin:react/recommended",
+            "standard",
+            "prettier"
+            ],
+```
+
+---
+
+### 📦 Prettier
+
+Prettier formateo tu código. La idea original de Prettier es no tener configuración. Pretende evitar debates de sobre el formateo de código. Aquí podeis ver lo que dicen en su página oficial.
+![Prettier has a few options but we don`t want more of them](../img/prettier.png)
+
+#### 🔨 Instalación
+
+```bash
+npm install prettier -D
+```
+
+- Crear archivo de configuración de Prettier _prettierrc.json_ aunque sea vacío.
+
+#### 🎯 Comandos
+
+```bash
+npx prettier . --check
+# Nos muestra por consola los errores de formateo
+
+npx prettier . --write
+# Nos arregla los errores de formateo
+```
+
+👌 Estos comandos hacen un checkeo general de todo tu proyecto. Podemos ignorar carpetas creando un archivo **.prettierignore**
+
+- Instalar extensión de Prettier
+
+  ![Plugin de Prettier para VSC](../img/prettierextension.png)
+
+* Debemos aseguarnos que el formateador por dedecto en _settings.json_ es el de prettier **esbenp.prettier-vscode**
+
+```javascript
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+```
+
+### 📦 Eslint
+
+Encuentra problemas en tu código. No sólo de formateo, si no también errores como dejar una variable sin usar y cosas así. Automáticamente puede solucionarte estos problemas. Evidentemente no lo soluciona todo, pero es una muy buena aproximación.
+
+#### 🔨 Instalación
+
+```bash
+npm install eslint -D
+# Instala el apquete EsLint
+
+npx eslint --init
+# Inicializar ESLint
+```
+
+Nos va a hacer una serie de preguntas para configurar ESLint. Si usamos TypeScript, que tipo de errores queremos que contemple... 👌 Puedes ver una configuración explicada por Midudev [aqui](https://youtu.be/EEDRcolSHms?t=499).
+
+Nos pedirá instalar algunas dependencias necesarias y ahora tendremos un archivo _.eslintrc.js_ en la raíz desde nuestro proyecto parecido a este:
+
+![.eslintrc.js](../img/eslint.png)
+
+- instalar la extensión eslint
+
+![extension ESLint para VSC](../img/eslintextension.png)
+
+#### 🎯 Comandos
+
+```bash
+npx eslint .
+# Nos muestras por consola todos los errores que encuentra en nuestro código
+
+npx eslint --fix
+# Arregla todos los errores que puede solucionar
+```
+
+👌 **Formatear al guardar**. Esto no lo hace por defecto. Pero podemos configuarlo en el archivo settings.json.
+
+```javascript
+"[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+```
+
+### 🙌 Evitar conflictos entre ESLint y Prettier
+
+```bash
+npm install eslint-config-prettier -D
+```
+
+- Añadimos esta nueva configuración **Prettier** en el archivo .eslintrc.js. **Añadirla la última**
+  Con poner **Prettier** automáticamente ya detecta que estamos hablando del paquete que acabamos de instalar.
+
+```javascript
+// eslintrc.js
+  extends: [
+            "plugin:react/recommended",
+            "standard",
+            "prettier"
+            ],
+```
+
+Estas configuración desactivar todas la reglas de **ESLint** que entren en conflicto con las de Prettier. Éste será ahora el encargado de formatear tu código.
+
+### 🌟 EXTRA: Pasar ESLint & Pritter antes de commitear
+
+```bash
+npm mrm lint-staged
+```
+
+mrm es un paquete para **cambiar de forma rápida los archivos de configuración** de un proyecto, como el package.json, por ejemplo.
+
+A este mrm se le pasa el preset de lint-staged que actualiza nuestro package.json con los scripts necesarios para que pase el ESLint y el Prettier antes de ejecutar un commit y nos impida commitear si encuentra algún error.
+
+👌 Sólo lo pasa a los archivos que hemos modificado.
+
+Esto es lo que se añade a nuestro **package.json**
+
+```javascript
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+```
+
+📚 _sources:_
+
+- [ESLint](https://eslint.org/docs/user-guide/getting-started)
+- [Pretiter](https://prettier.io/)
+- [Javascript Standar Style](https://youtu.be/EEDRcolSHms?t=1321)
+- [Prettier's Option Philosoply](https://prettier.io/docs/en/option-philosophy.html)
+- [Lint-staged](https://github.com/okonet/lint-staged)

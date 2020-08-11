@@ -99,7 +99,7 @@ export const blog = css`
 
   a.articles {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     font-family: "Mulish", sans-serif;
     font-weight: 400;
@@ -114,7 +114,7 @@ export const blog = css`
 
   span.articles {
     font-family: Verdana;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding: 1rem;
     padding-left: 0;
     float: right;
@@ -136,9 +136,9 @@ export const blog = css`
       display: block;
     }
 
-    li.articles:hover {
+    /*     li.articles:hover {
       transform: scale(1.1);
-    }
+    } */
 
     a.articles {
       font-size: 1.3rem;
@@ -151,6 +151,7 @@ export const post = css`
     text-align: center;
     border-bottom: 1px solid lightgrey;
     padding-bottom: 0.8rem;
+    line-height: 1;
   }
   article {
     font-family: Verdana;
