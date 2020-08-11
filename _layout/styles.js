@@ -51,13 +51,21 @@ export const blog = css`
     src: url("../../fonts/Mulish-Regular.ttf");
   }
 
+  div {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+ 
   ul.button {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
-  }
+  } 
 
   ul.button li {
     margin: 0.5rem 1rem;
@@ -86,6 +94,12 @@ export const blog = css`
     text-decoration: none;
     color: black;
     font-size: 18px;
+  }
+
+    @media (min-width: 1000px) {
+  div {
+    display:block;
+  }
   }
 
   }

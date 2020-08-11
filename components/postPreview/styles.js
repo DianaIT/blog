@@ -6,15 +6,6 @@ export default css`
     src: url("../../fonts/Mulish-Regular.ttf");
   }
 
-  div {
-    display: none;
-  }
-
-  ul.articles {
-    list-style: none;
-    width: 100vh;
-  }
-
   a.articles {
     text-decoration: none;
     font-size: 1.3rem;
@@ -36,6 +27,7 @@ export default css`
     padding: 1rem;
     padding-left: 0;
     float: right;
+    margin-top: -3px;
   }
 
   @media (min-width: 1000px) {
@@ -50,8 +42,7 @@ export default css`
     }
 
     li.articles {
-      padding: 0.2rem;
-      display: block;
+      width: 100vh;
     }
 
     a.articles {
