@@ -53,7 +53,7 @@ EVITAR CONFLICTOS
 ### 📦 Prettier
 
 Prettier formateo tu código. La idea original de Prettier es no tener configuración. Pretende evitar debates de sobre el formateo de código. Aquí podeis ver lo que dicen en su página oficial.
-![Prettier has a few options but we don`t want more of them](../img/prettier.png)
+![Prettier has a few options but we don`t want more of them](../img/prettier.PNG)
 
 #### 🔨 Instalación
 
@@ -77,7 +77,7 @@ npx prettier . --write
 
 - Instalar extensión de Prettier
 
-  ![Plugin de Prettier para VSC](../img/prettierextension.png)
+  ![Plugin de Prettier para VSC](../img/prettierextension.PNG)
 
 * Debemos aseguarnos que el formateador por dedecto en _settings.json_ es el de prettier **esbenp.prettier-vscode**
 
