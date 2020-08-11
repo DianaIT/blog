@@ -3,7 +3,6 @@
 <p align="center"><a href="https://twitter.com/dianait_"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/twitter.svg" alt="dianait_" width="30"/></a>
 <a href="https://www.linkedin.com/in/dianahernandezsoler/"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/linkedin.svg" alt="dianahernandezsoler" width="30"/></a>
 <a href="https://www.instagram.com/dianait_"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/instagram.svg" alt="dianait" width="30"/></a>
-<a href="https://dianait.vercel.app"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/SFlogo.PNG" alt="series & Front" width="34"/></a>
 </p>
 
 📺 Nací en el año en que unos lagartos vestidos de rojo aterrorizaban la televisión; Cuenta mi progenitora que debido a mi nacimiento se perdió el desenlace de V. Y para recordármelo de por vida me llamo **Diana**.
