@@ -1,22 +1,22 @@
-import socialStyle from "./socialStyle";
+import socialStyle from "./socialStyle"
 export default function Social() {
   return (
     <>
       <nav>
         <a href="https://twitter.com/dianait_">
-          <img src="../icons/003-gorjeo.svg" alt="icono twitter" />
+          <img src="../icons/twitter.svg" alt="dianait_" />
         </a>
         <a href="https://github.com/dianait">
-          <img src="../icons/001-github.svg" alt="icono github" />
+          <img src="../icons/github.svg" alt="dianait" />
         </a>
-        <a href="https://codepen.io/dashboard">
-          <img src="../icons/002-codepen.svg" alt="icono codepen" />
+        <a href="https://isntagram.com/dianait_">
+          <img src="../icons/instagram.svg" alt="dianait_" />
         </a>
         <a href="https://www.linkedin.com/in/dianahernandezsoler">
-          <img src="../icons/004-linkedin.svg" alt="icono linkedin" />
+          <img src="../icons/linkedin.svg" alt="dianahernandezsoler" />
         </a>
       </nav>
       <style jsx>{socialStyle}</style>
     </>
-  );
+  )
 }

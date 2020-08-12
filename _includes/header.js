@@ -2,6 +2,7 @@ import React from "react"
 import Head from "next/head"
 import styles from "./styles"
 import Link from "next/link"
+import Social from "components/social/index"
 
 function Header() {
   return (
@@ -15,24 +16,13 @@ function Header() {
         <Link href="/">
           <a>
             <img
-              style={{ width: "200px", height: "170px", "margin-left": "32px" }}
+              style={{ width: "200px", height: "170px" }}
               src="../img/SFlogo_large.PNG"
               alt="Series & Front"
             />
           </a>
         </Link>
-        <nav>
-          <a href="https://twitter.com/dianait_">
-            <img src="../icons/003-gorjeo.svg" alt="dianait_" />
-          </a>
-
-          <a href="https://github.com/dianait">
-            <img src="../icons/001-github.svg" alt="dianait" />
-          </a>
-          <a href="https://www.linkedin.com/in/dianahernandezsoler">
-            <img src="../icons/004-linkedin.svg" alt="dianahernandezsoler" />
-          </a>
-        </nav>
+        <Social />
       </header>
 
       <style jsx>{styles}</style>

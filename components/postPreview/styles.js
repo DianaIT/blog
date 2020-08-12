@@ -8,26 +8,24 @@ export default css`
 
   a.articles {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: bold;
     font-family: "Mulish", sans-serif, Verdana;
     font-weight: 400;
   }
 
   li.articles {
-    margin: 3rem 0;
+    width: 100vh;
+    margin: 3rem 1rem;
     padding: 0.5rem;
     border-bottom: 1px solid lightgrey;
-    width: 93%;
   }
 
   span.articles {
     font-family: Verdana;
-    font-size: 0.8rem;
-    padding: 1rem;
-    padding-left: 0;
+    font-size: 0.9em;
+    padding: 0.5rem;
     float: right;
-    margin-top: -3px;
   }
 
   @media (min-width: 1000px) {

@@ -1,6 +1,9 @@
 import css from "styled-jsx/css"
 
 export default css`
+  img {
+    margin-left: 32px;
+  }
   div {
     display: none;
   }
@@ -8,10 +11,11 @@ export default css`
     margin-top: -12px;
   }
   header {
+    width: 100%;
     display: flex;
-    width: 100vh;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+
     margin: 0.3rem;
   }
   ul {
@@ -24,13 +28,9 @@ export default css`
   }
 
   nav > a > img {
-    width: 30px;
-    height: 30px;
+    width: 39px;
+    height: 39px;
     padding: 3px;
-  }
-
-  nav {
-    margin-right: 64px;
   }
 
   a {

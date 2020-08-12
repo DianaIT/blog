@@ -14,19 +14,19 @@ export const styles = css.global`
     src: url("../../fonts/AmaticSC-Regular.ttf");
   }
 
-  main {
-    margin: 0 auto;
-    width: 100vh;
-    padding: 1rem 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   * {
     box-sizing: border-box;
-    margin: 0.1rem;
-    padding: 0.1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
 
   h1 {
@@ -37,11 +37,6 @@ export const styles = css.global`
   /* MIRAR POR QUÉ PASA ESTO */
   p > :global(img) {
     width: 100%;
-  }
-
-  img {
-    width: 60%;
-    margin: 0 auto;
   }
 `
 
@@ -57,8 +52,11 @@ export const blog = css`
 
   ul {
     list-style: none;
+     width: 100%;
   }
- 
+
+
+
   ul.button {
     list-style: none;
     display: flex;

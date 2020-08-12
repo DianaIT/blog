@@ -1,15 +1,26 @@
-import css from "styled-jsx/css";
+import css from "styled-jsx/css"
 
 export default css`
-  nav {
+  ul {
     display: flex;
-    margin: auto auto;
-    padding-right: 0.8rem;
-    border-right: 2px solid lightgrey;
+    width: 100vh;
+    justify-content: space-around;
+    list-style: none;
   }
-  img {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
+
+  nav > a > img {
+    width: 39px;
+    height: 39px;
+    padding: 3px;
   }
-`;
+
+  nav {
+    margin-right: 32px;
+  }
+
+  @media (min-width: 1000px) {
+    nav {
+      margin-right: 0;
+    }
+  }
+`
