@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>📝 Custom snippets en VSC</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/github-markdown.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+  </head>
+  <body>
+    <article class="markdown-body"><p>Vamos a ver como podemos crear un snippet personalizado en <strong>Visual Studio Code</strong> <em>( plantillas de código )</em> que nos ayude a tener en pocos segundos estructuras complejas de código.</p>
+<p>En el <strong>marketplace</strong> podeis encontrar multitud de plugins con snippets para un montón de lenguajes. Pero aquí nos vamos a centrar en crear nuestro propio snippet. Personalización al poder 💪</p>
+<h4 id="⭐️-empezamos"><a class="header-link" href="#⭐️-empezamos"></a>⭐️ Empezamos</h4>
+<p>Lo primero para crear nuestro snipper personalizado en <strong>VSC</strong> será acceder a la sección de <strong>File&gt;Preferences&gt;User Snippet</strong>.</p>
+<p>Tendremos que elegir el legunaje para que queramos que se aplique el snippet. En este caso vamos ha elegir <strong>Javascript</strong>, ya que lo que queremos es crear un snippet para crear una page inicial en un proyecto con next.js. <em>Como la de este blog, por ejemplo</em></p>
+<p>Una vez elegido el lenguaje nos abrirá un documento, en este caso, <em>javascript.json</em> dónde podemos ver un comentario con una pequeña plantilla para crear nuestro primer snippet.
+Estos archivos de snippets se guardan en:</p>
+<pre class="hljs"><code>🏠 Windows: %APPDATA%\Code\User\snippets
+🍎 Mac: $HOME/Library/Application Support/Code/User/snippets
+🐦 Linux:  $HOME/.config/Code/User/snippets</code></pre><h4 id="🍆-estructura"><a class="header-link" href="#🍆-estructura"></a>🍆 Estructura</h4>
+<pre class="hljs"><code>{
+  <span class="hljs-comment">// Nombre</span>
+  <span class="hljs-string">"Page next"</span>: {
+    <span class="hljs-comment">// Abrebiatura para "llamar" al snippet</span>
+    <span class="hljs-string">"prefix"</span>: <span class="hljs-string">"page"</span>,
+    <span class="hljs-string">"body"</span>: [
+      <span class="hljs-string">"export default function $1({$2}){"</span>
+        <span class="hljs-string">"return"</span>
+          <span class="hljs-string">"(&lt;&gt;$3&lt;/&gt;)"</span>
+      <span class="hljs-string">"}"</span>
+    ],
+    <span class="hljs-comment">// Opcional</span>
+    <span class="hljs-string">"description"</span>: <span class="hljs-string">"A new Peage en Next.js"</span>
+  }
+}</code></pre><h5 id="💰-¿qué-son-esos-dólares,-my-friend?"><a class="header-link" href="#💰-¿qué-son-esos-dólares,-my-friend?"></a>💰 ¿Qué son esos dólares, my friend?</h5>
+<p>Lo mejor que tienen los snippets a parte del tiempo que ganamos al no tener que teclear tanto, es que podemos poner una serie de <em>índices</em> para que el cursor se mueva por ellos.</p>
+<p>Le estamos creando una ruta al cursor, y mediante la tecla tab podemos ir de uno a otro con el teclado, rellenado los campos que necesitemos sin necesidad de tocar el ratón.</p>
+<p>Puedes poner tantos como quieras y en el orden que más te guste.</p>
+<p>Este ejemplo es muy sencillo, por lo que instalando cualquier plugin para React lo tendriamos ya incluido, junto con muchos otros.
+Pero a poco que empecemos a realizar proyectos veremos que repetimos muchas estructuras, y poder tenerlas a nuestra manera nos ahorrara mucho tiempo y trabajo.</p>
+<p>Así que ya solo faltaría irnos a nuestro documento escribir el <strong>prefix</strong> y pulsar tabulador y ✨MAGIC! Ya tenemos nuestro código.</p>
+<p>⚠️ <strong>IMPORTANTE</strong> Hay que tener activada la opción de aceptar sugerencias en <em>settings.json</em>.</p>
+<pre class="hljs"><code>  <span class="hljs-string">"editor.quickSuggestions"</span>: <span class="hljs-literal">true</span></code></pre><p>Podeis acceder a este archivo desde <strong>Paleta de comandos &gt; Configure language specifics settings...</strong> Aunque aquí teneis la ruta, por si quereis acceder por aquí.</p>
+<pre class="hljs"><code>🏠 Windows: %APPDATA%\Code\Use
+🍎 Mac: $HOME/Library/Application Support/Code/User
+🐦 Linux: $HOME/.config/Code/User</code></pre><h4 id="🍄-¿algo-más-eleborado?"><a class="header-link" href="#🍄-¿algo-más-eleborado?"></a>🍄 ¿Algo más eleborado?</h4>
+<p><a href="/posts/Snippets-en-VSC-Parte-II">Aquí</a> podeis ver el snippet en markdown que utilizo para el post que estás leyendo ahora mismo.</p>
+<p>📚 <strong>sources:</strong></p>
+<ul class="list">
+<li><a href="https://vscode-docs.readthedocs.io/en/stable/customization/userdefinedsnippets/">Defined Snippets in vscode-docs</a></li>
+<li><a href="https://github.com/Microsoft/vscode/issues/26108">Activate quickSuggestions</a></li>
+</ul>
+    </article>
+  </body>
+</html>

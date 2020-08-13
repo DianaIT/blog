@@ -38,6 +38,22 @@ export const styles = css.global`
   p > :global(img) {
     width: 100%;
   }
+
+  :global(code) {
+    font-family: monospace, monospace;
+    font-size: 0.9em;
+    color: black;
+  }
+
+  #__next > main > article > div > pre {
+    background-color: lightgrey;
+    padding: 1rem 2rem;
+  }
+
+  #__next > main > article > div > p,
+  #__next > main > article > div > h2 {
+    padding: 0.6rem 0;
+  }
 `
 
 export const blog = css`
@@ -107,18 +123,31 @@ export const post = css`
   h1 {
     text-align: center;
     border-bottom: 1px solid lightgrey;
-    padding-bottom: 0.8rem;
+    padding-bottom: 1rem;
     line-height: 1;
-  }
-  article {
-    font-family: Verdana;
-    width: 95%;
-    margin: 0 auto;
-    font-size: 1.2rem;
+    margin-bottom: 2rem;
   }
 
-  :global(code) {
-    font-size: 1rem;
+  article {
+    width: 90%;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
+      sans-serif;
+    font-size: 1.7rem;
+  }
+
+  div {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    color: #333;
+    overflow: hidden;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
+      sans-serif;
+    line-height: 1.8;
+    word-wrap: break-word;
+  }
+
+  h2 {
+    margin: 1rem 0;
   }
 
   .language-javascript {

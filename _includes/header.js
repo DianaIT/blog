@@ -8,7 +8,7 @@ function Header() {
   return (
     <>
       <Head>
-        <title>Dianait blog</title>
+        <title>Series & Front | Blog</title>
         <meta name="description" content="Diario de una developer en apurOS" />
         <link rel="shortcut icon" type="icon" href="./img/favicon.ico" />
       </Head>

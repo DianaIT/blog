@@ -31,23 +31,17 @@ Bueno, para ser exactos, realmente si lo tenemos, ya que por algo esta lo de **\
 
 Crea una clase globalmente única compuesta por el nombre del archivo css, el nombre de la clase y un identificador único. Sería algo así.
 
-```css
+```javascript
 /* styles.module.css */
+.foo { color: red; }
 
-.foo {
-  color: red;
-}
-```
-
-```jsx
+/* importación */
 import styles from "./styles.css" // CSS MODULES
 import "./main.css" // IMPORTACIÓN NORMAL DE CSS
-;<h1 class={sytles.foo}> CSS </h1>
-```
+<h1 class={sytles.foo}> CSS </h1>
 
-```html
-<!-- EL NAVEGADOR VERÍA ALGO ASÍ
-class = "ARCHIVO_CLASE_ID_UNICO" -->
+/* output */
+class = "ARCHIVO_CLASE_ID_UNICO"
 <h1 class="styles_foo_4xfe1">CSS</h1>
 ```
 
@@ -57,9 +51,7 @@ class = "ARCHIVO_CLASE_ID_UNICO" -->
 
 ```javascript
 style.class - name // Puede crear problemas
-
 style["class-name"] // Así se evitarían estos problemas
-
 style.className // camelCase
 ```
 
@@ -69,9 +61,9 @@ style.className // camelCase
 
 [**@ahfarmer**](https://twitter.com/ahfarmer)
 
-CSS Modules coge nuestras clases y las hace únicas. Esto nos permite repetir nombres de clases sin miedo a que se produzcan resultados no deseados en el layout de nuestra aplicación.¿
+**CSS Modules** coge nuestras clases y las hace únicas. Esto nos permite repetir nombres de clases sin miedo a que se produzcan resultados no deseados en el layout de nuestra aplicación.
 
-📚 _sources:_
+## 📚 Sources
 
 - [css-modules/css-modules](https://github.com/css-modules/css-modules)
 
