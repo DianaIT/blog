@@ -4,12 +4,14 @@ import Styles from "./styles"
 function postPreview({ post }) {
   return (
     <>
-      <li className="articles">
-        <Link href={"posts/" + post.slug}>
-          <a className="articles">{post.title}</a>
-        </Link>
-        <span className="articles"> {post.date} 📅 </span>
-      </li>
+      <Link href={"posts/" + post.slug}>
+        <li>
+          <section>
+            <a>{post.title}</a>
+            <date> 📅 {post.date} </date>
+          </section>
+        </li>
+      </Link>
       <style jsx>{Styles}</style>
     </>
   )

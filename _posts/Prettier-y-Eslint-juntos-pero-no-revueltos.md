@@ -53,7 +53,8 @@ EVITAR CONFLICTOS
 ### 📦 Prettier
 
 Prettier formateo tu código. La idea original de Prettier es no tener configuración. Pretende evitar debates de sobre el formateo de código. Aquí podeis ver lo que dicen en su página oficial.
-![Prettier has a few options but we don`t want more of them](../img/prettier.PNG)
+
+![Prettier has a few options but we dont want more of them](../img/prettier.PNG)
 
 #### 🔨 Instalación
 

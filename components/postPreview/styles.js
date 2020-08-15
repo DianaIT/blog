@@ -6,26 +6,37 @@ export default css`
     src: url("../../fonts/Mulish-Regular.ttf");
   }
 
-  a.articles {
+  a {
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: bold;
     font-family: "Mulish", sans-serif, Verdana;
     font-weight: 400;
-  }
-
-  li.articles {
-    width: 100vh;
-    margin: 3rem 1rem;
+    display: block;
     padding: 0.5rem;
-    border-bottom: 1px solid lightgrey;
   }
 
-  span.articles {
+  li:hover {
+    background-color: rgb(92, 128, 180, 0.3);
+    -webkit-transition: background-color 1000ms ease;
+    -ms-transition: background-color 1000ms ease;
+    transition: background-color 1000ms ease;
+    border-radius: 10px;
+    display: block;
+  }
+  li {
+    margin: 3rem 2rem;
+    padding: 0.5rem;
+    position: relative;
+  }
+
+  date {
     font-family: Verdana;
     font-size: 0.9em;
     padding: 0.5rem;
-    float: right;
+    position: absolute;
+    display: block;
+    right: 0;
   }
 
   @media (min-width: 1000px) {
@@ -33,18 +44,24 @@ export default css`
       display: block;
     }
 
-    span.articles {
+    span {
       font-size: 0.9rem;
       margin-left: 0;
       margin-top: -7px;
     }
 
-    li.articles {
+    li {
       width: 100vh;
     }
 
-    a.articles {
+    a {
       font-size: 1.3rem;
+    }
+
+    @media (min-width: 1000px) {
+      div {
+        display: block;
+      }
     }
   }
 `

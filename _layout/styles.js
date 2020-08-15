@@ -29,19 +29,18 @@ export const styles = css.global`
     margin: 0 auto;
   }
 
-  h1 {
-    font-size: 2.5rem;
-    font-family: "Poiret One", cursive;
-  }
-
-  /* MIRAR POR QUÉ PASA ESTO */
+  /* ESTO ES PARA LAS SECCIONES DE CÓDIGO */
   p > :global(img) {
     width: 100%;
   }
 
+  :global(p) {
+    margin: 2rem 0;
+  }
+
   :global(code) {
     font-family: monospace, monospace;
-    font-size: 0.9em;
+    font-size: 0.7em;
     color: black;
   }
 
@@ -54,6 +53,14 @@ export const styles = css.global`
   #__next > main > article > div > h2 {
     padding: 0.6rem 0;
   }
+
+  @media (min-width: 1000px) {
+    :global(p) {
+      margin: 1rem 0;
+    }
+  }
+
+  /* ESTO ES PARA LAS SECCIONES DE CÓDIGO */
 `
 
 export const blog = css`
@@ -66,61 +73,66 @@ export const blog = css`
     display: none;
   }
 
-  ul {
-    list-style: none;
-     width: 100%;
-  }
+    ul {
+      list-style: none;
+      width: 100%;
+    }
 
+    ul.button {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
 
+    ul.button li {
+      margin: 0.5rem 1rem;
+      padding: 0.5rem 1.4rem;
+      border-radius: 10px;
+      font-family: "Poiret One";
+      font-weight: bold;
+      display: block;
+      border: 1px solid white;
+    }
 
-  ul.button {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  } 
+    button {
+      padding: 0.7rem 3rem;
+      border-radius: 10px;
+      border: none;
+      background: none;
+      outline: none;
+    }
 
-  ul.button li {
-    margin: 0.5rem 1rem;
-    padding: 0.5rem 1.4rem;
-    border-radius: 10px;
-    font-family: "Poiret One";
-    font-weight: bold;
-    display: block;
-    border: 1px solid white;
-  }
+    button:hover,
+    .active {
+      background-color: lightgrey;
+    }
 
-  button {
-    padding: 0.7rem 3rem;
-    border-radius: 10px;
-    border: none;
-    background: none;
-    outline: none;
-  }
+    a.button {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+    }
 
-  button:hover,
-  .active {
-    background-color: lightgrey;
-  }
+ul {
+    flex: 1 1;
+    padding-right: var(--p-separation);
+}
 
-  a.button {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-  }
 
     @media (min-width: 1000px) {
-  div {
-    display:block;
-  }
-  }
-
+      div {
+        display: block;
+      }
+    }
   }
 `
 /* MIRAR POR QUÉ PASA ESTO */
 export const post = css`
   h1 {
+    font-size: 2.5rem;
+    font-family: "Poiret One", cursive;
     text-align: center;
     border-bottom: 1px solid lightgrey;
     padding-bottom: 1rem;
