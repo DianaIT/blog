@@ -35,7 +35,7 @@ export const styles = css.global`
   }
 
   :global(p) {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
   :global(code) {
@@ -54,9 +54,20 @@ export const styles = css.global`
     padding: 0.6rem 0;
   }
 
+  hr,
+  h4,
+  h3,
+  li {
+    margin: 1rem 0;
+  }
+
   @media (min-width: 1000px) {
     :global(p) {
       margin: 1rem 0;
+    }
+
+    :global(code) {
+      font-size: 0.9em;
     }
   }
 
