@@ -47,6 +47,7 @@ export const styles = css.global`
   #__next > main > article > div > pre {
     background-color: lightgrey;
     padding: 1rem 2rem;
+    border-radius: 10px;
   }
 
   #__next > main > article > div > p,
@@ -155,7 +156,7 @@ export const post = css`
     width: 90%;
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
       sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   div {

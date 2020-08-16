@@ -8,7 +8,7 @@ export default css`
 
   a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: "Mulish", sans-serif, Verdana;
     font-weight: 400;
@@ -35,7 +35,6 @@ export default css`
     font-family: Verdana;
     font-size: 0.9em;
     padding: 0.5rem 0;
-    min-width: 6rem;
     align-self: flex-end;
   }
 

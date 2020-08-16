@@ -156,7 +156,7 @@ Estas configuración desactivar todas la reglas de **ESLint** que entren en conf
 ### 🌟 EXTRA: Pasar ESLint & Pritter antes de commitear
 
 ```bash
-npm mrm lint-staged
+npx mrm lint-staged
 ```
 
 mrm es un paquete para **cambiar de forma rápida los archivos de configuración** de un proyecto, como el package.json, por ejemplo.
