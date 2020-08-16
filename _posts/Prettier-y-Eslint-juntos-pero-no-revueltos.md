@@ -179,7 +179,7 @@ Esto es lo que se añade a nuestro **package.json**
   }
 ```
 
-### 📚 sources
+### 📚 Sources
 
 - [ESLint](https://eslint.org/docs/user-guide/getting-started)
 - [Pretiter](https://prettier.io/)

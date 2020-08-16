@@ -22,21 +22,21 @@ export default css`
     -ms-transition: background-color 1000ms ease;
     transition: background-color 1000ms ease;
     border-radius: 10px;
-    display: block;
   }
   li {
     margin: 3rem 2rem;
     padding: 0.5rem;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
   }
 
-  date {
+  span {
     font-family: Verdana;
     font-size: 0.9em;
-    padding: 0.5rem;
-    position: absolute;
-    display: block;
-    right: 0;
+    padding: 0.5rem 0;
+    min-width: 6rem;
+    align-self: flex-end;
   }
 
   @media (min-width: 1000px) {
@@ -62,6 +62,13 @@ export default css`
       div {
         display: block;
       }
+
+      a {
+        font-size: 1.8rem;
+      }
+
+      span {
+        font-size: 0.8em;
+      }
     }
-  }
 `
