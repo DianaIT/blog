@@ -1,6 +1,6 @@
 ---
 id: 7
-title: "🙆 saliendo de mi zona de confort"
+title: "🙆 Saliendo de mi zona de confort"
 tag: "front"
 author: "DianaIT"
 date: "17/08/20"
