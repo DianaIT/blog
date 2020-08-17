@@ -62,6 +62,10 @@ export const styles = css.global`
   }
 
   @media (min-width: 1000px) {
+    main {
+      max-width: 70%;
+    }
+
     :global(p) {
       margin: 1rem 0;
     }
@@ -184,7 +188,7 @@ export const post = css`
     font-size: 1.2rem;
   }
 
-  @media (min-width: 1000px) {
+  @media (min-width: 810px) {
     article {
       color: #333;
       font-size: 18px;
