@@ -1,36 +1,32 @@
 import DefaultLayout from "@layout/default"
 import { blog } from "@layout/styles"
-import { getAllPosts, getPostsByTag } from "pages/api"
+import { getAllPosts } from "pages/api"
 import { useState, useEffect } from "react"
 import PostPreview from "components/postPreview/index"
 
 export default function Home(props) {
-  const [tag, setTag] = useState("all")
+  const [tag, setTag] = useState()
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
     async function fetchData() {
-      let response = []
-      if (tag === "front") {
-        response = await getPostsByTag("front")
-      } else if (tag === "series") {
-        response = await getPostsByTag("series")
-      } else {
-        response = await getAllPosts()
-      }
+      const response = await getAllPosts()
+      let filterResponse = []
 
-      setPosts(response)
+      switch (tag) {
+        case "front":
+          filterResponse = filterPosts(response, "front")
+          break
+        case "series":
+          filterResponse = filterPosts(response, "series")
+          break
+        default:
+          filterResponse = response
+      }
+      setPosts(filterResponse)
     }
     fetchData()
   }, [tag])
-
-  useEffect(() => {
-    async function fetchData() {
-      const response = await getAllPosts()
-      setPosts(response)
-    }
-    fetchData()
-  }, [])
 
   return (
     <>
@@ -70,4 +66,8 @@ export default function Home(props) {
       </DefaultLayout>
     </>
   )
+}
+
+function filterPosts(response, tag) {
+  return response.filter((post) => post.tag === tag)
 }

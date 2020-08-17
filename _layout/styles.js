@@ -20,6 +20,11 @@ export const styles = css.global`
     padding: 0;
   }
 
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+      Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  }
+
   main {
     max-width: 100%;
     display: flex;
@@ -145,6 +150,7 @@ ul {
 `
 /* MIRAR POR QUÉ PASA ESTO */
 export const post = css`
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
   h1 {
     font-size: 2.5rem;
     font-family: "Poiret One", cursive;
@@ -157,8 +163,7 @@ export const post = css`
 
   article {
     width: 90%;
-    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
-      sans-serif;
+    font-family: Roboto, Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-size: 1.1rem;
     word-break: break-word;
     color: #333;
@@ -169,9 +174,8 @@ export const post = css`
     -webkit-text-size-adjust: 100%;
     color: #333;
     overflow: hidden;
-    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
-      sans-serif;
-    line-height: 1.8;
+    font-family: Roboto, Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    line-height: 1.6;
     word-wrap: break-word;
   }
 
@@ -188,12 +192,15 @@ export const post = css`
     font-size: 1.2rem;
   }
 
-  @media (min-width: 810px) {
+  @media (min-width: 1100px) {
+    h1 {
+      font-size: 3.5rem;
+    }
     article {
       color: #333;
-      font-size: 18px;
-      line-height: 28px;
-      width: 90%;
+      font-size: 1.3rem;
+      width: 70%;
+      word-break: break-word;
     }
 
     :global(code) {

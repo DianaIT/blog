@@ -21,7 +21,7 @@ export default css`
   ul {
     display: flex;
     width: 100vh;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     font-family: Verdana;
     border-bottom: 1px solid lightgrey;
@@ -45,7 +45,7 @@ export default css`
     }
 
     header {
-      width: 50%;
+      width: 70%;
     }
 
     img {
