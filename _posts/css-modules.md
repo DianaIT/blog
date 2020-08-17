@@ -5,6 +5,8 @@ author: "DianaIT"
 date: "7/08/20"
 updateAt: ""
 tag: "front"
+image: "./img/cssmodules.png"
+text: "Vamos a ver como funciona esto de CSS Modules, y porque mola tanto el CSS scoped."
 ---
 
 ## ❓ ¿Por qué?

@@ -5,15 +5,15 @@ author: "DianaIT"
 date: "11/08/20"
 updateAt: ""
 tag: "front"
+image: "./img/eslint.svg"
+text: "Utliza los mejor de los dos en tus proyectos."
 ---
 
-**Prettier** y **ESLint** se pelean entre ellos porque los dos se preocupan por formatear tu código, pero con la configuración adecuada puedes tener lo mejor de cada uno en todos tus proyectos.
+**Prettier** y **ESLint** se pelean entre ellos porque los dos se preocupan por **formatear tu código**, pero con la configuración adecuada puedes tener lo mejor de cada uno en todos tus proyectos.
 
----
+#### 📔 RESUMEN
 
-##### 📔 RESUMEN
-
-PRETTIER
+1️⃣ PRETTIER
 
 ```javascript
 1. npm install prettier -D
@@ -26,7 +26,7 @@ PRETTIER
 4. Instalar extensión Prettier
 ```
 
-ESLINT
+2️⃣ ESLINT
 
 ```bash
 1. npm install eslint -D
@@ -35,7 +35,7 @@ ESLINT
 
 ```
 
-EVITAR CONFLICTOS
+3️⃣ EVITAR CONFLICTOS
 
 ```javascript
 1. npm install eslint-config-prettier -D
@@ -52,7 +52,7 @@ EVITAR CONFLICTOS
 
 ### 📦 Prettier
 
-Prettier formateo tu código. La idea original de Prettier es no tener configuración. Pretende evitar debates de sobre el formateo de código. Aquí podeis ver lo que dicen en su página oficial.
+Prettier **formatea tu código**. La idea original de Prettier es no tener configuración. Pretende **evitar debates de sobre el formateo** de código. Aquí podeis ver lo que dicen en su página oficial.
 
 ![Prettier has a few options but we dont want more of them](../img/prettier.PNG)
 
@@ -80,19 +80,16 @@ npx prettier . --write
 
   ![Plugin de Prettier para VSC](../img/prettierextension.PNG)
 
-* Debemos aseguarnos que el formateador por dedecto en _settings.json_ es el de prettier **esbenp.prettier-vscode**
+Hay que mirar que en _settings.json_ está **esbenp.prettier-vscode** como formateador por defecto.
 
 ```javascript
-   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
+   "editor.defaultFormatter":
+    "esbenp.prettier-vscode"
 ```
 
 ### 📦 Eslint
 
-Encuentra problemas en tu código. No sólo de formateo, si no también errores como dejar una variable sin usar y cosas así. Automáticamente puede solucionarte estos problemas. Evidentemente no lo soluciona todo, pero es una muy buena aproximación.
+**Encuentra problemas en tu código**. No sólo de formateo, si no también errores como dejar una variable sin usar y cosas así. Automáticamente **puede solucionarte estos problemas**. Evidentemente no lo soluciona todo, pero es una muy buena aproximación.
 
 #### 🔨 Instalación
 
@@ -118,8 +115,7 @@ Nos pedirá instalar algunas dependencias necesarias y ahora tendremos un archiv
 
 ```bash
 npx eslint .
-# Nos muestras por consola todos los errores que encuentra en nuestro código
-
+# Nos muestras los errores que encuentra
 npx eslint --fix
 # Arregla todos los errores que puede solucionar
 ```
@@ -127,10 +123,7 @@ npx eslint --fix
 👌 **Formatear al guardar**. Esto no lo hace por defecto. Pero podemos configuarlo en el archivo settings.json.
 
 ```javascript
-"[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
-  }
 ```
 
 ### 🙌 Evitar conflictos entre ESLint y Prettier

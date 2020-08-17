@@ -5,6 +5,8 @@ author: "DianaIT"
 date: "06/08/20"
 updateAt: ""
 tag: "front"
+image: "./img/vsc.svg"
+text: "El snippet que utilizo para los artículos de este blog."
 ---
 
 Ya hemos visto la forma básica de crear un snippet, ahora vamos a ir un paso más alla.
@@ -25,7 +27,7 @@ Aquí teneis otros ejemplos de la [documentación](https://code.visualstudio.com
 Lo mismo podemos hacer con la fecha
 
 ```javascript
-date: $CURRENT_DATE / $CURRENT_MONTH / $CURRENT_YEAR_SHORT;
+date: $CURRENT_DATE / $CURRENT_MONTH / $CURRENT_YEAR_SHORT
 // date: 06/08/20
 ```
 

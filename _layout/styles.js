@@ -39,9 +39,8 @@ export const styles = css.global`
   }
 
   :global(code) {
-    font-family: monospace, monospace;
     font-size: 0.7em;
-    color: black;
+    margin: 0;
   }
 
   #__next > main > article > div > pre {
@@ -156,7 +155,9 @@ export const post = css`
     width: 90%;
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
       sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    word-break: break-word;
+    color: #333;
   }
 
   div {

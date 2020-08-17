@@ -5,6 +5,8 @@ author: "DianaIT"
 date: "5/08/20"
 updateAt: ""
 tag: "front"
+image: "./img/vsc.svg"
+text: "Vamos a hacer un pequeño snippet para crear un componente de react pulsando 3 teclas."
 ---
 
 Vamos a ver como podemos crear un snippet personalizado en **Visual Studio Code** _( plantillas de código )_ que nos ayude a tener en pocos segundos estructuras complejas de código.

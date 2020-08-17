@@ -14,7 +14,7 @@ export default css`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
     margin: 0.3rem;
   }

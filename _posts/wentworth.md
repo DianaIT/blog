@@ -4,6 +4,8 @@ title: "📺 Condena Australiana. Sobre Wentworth"
 author: "DianaIT"
 date: "4/08/20"
 tag: "series"
+image: "./img/wentworth.jpg"
+text: "La Orange is the new Black Australiana, sólo que mejor."
 ---
 
 ![foto promocional serie wentworth](../img/wentworth.jpg)

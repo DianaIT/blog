@@ -14,6 +14,8 @@ export async function getAllPosts() {
       title: meta.data.title,
       date: meta.data.date,
       tag: meta.data.tag,
+      image: meta.data.image,
+      text: meta.data.text,
     })
   }
 
@@ -41,6 +43,8 @@ export async function getPostsByTag(tag) {
         title: meta.data.title,
         date: meta.data.date,
         tag: meta.data.tag,
+        image: meta.data.image,
+        text: meta.data.text,
       })
     }
   }

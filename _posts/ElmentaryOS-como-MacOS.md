@@ -5,6 +5,8 @@ author: "DianaIT"
 date: "13/07/19"
 updateAt: ""
 tag: "front"
+image: "./img/elementary.svg"
+text: "Vamos a dejar ElementaryOS con el layout de MacOS."
 ---
 
 No se me ocurre mejor manera de inaugurar este rincón. Si una cosa tenía clara, después de más de 8 años con MacOS, era evitar volver a sufrir windows.
