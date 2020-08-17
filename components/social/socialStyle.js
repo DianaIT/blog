@@ -22,7 +22,7 @@ export default css`
 
   @media (min-width: 1000px) {
     nav {
-      margin-right: 0;
+      margin-right: 64px;
     }
   }
 `

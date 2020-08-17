@@ -13,8 +13,8 @@ export default css`
   header {
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: flex-start;
 
     margin: 0.3rem;
   }
@@ -39,14 +39,13 @@ export default css`
     color: black;
   }
 
-  @media (min-width: 1000px) {
+  @media (min-width: 810px) {
     div {
       display: block;
     }
 
     header {
-      justify-content: space-between;
-      align-items: center;
+      width: 50%;
     }
 
     img {
