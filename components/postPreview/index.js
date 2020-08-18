@@ -5,7 +5,7 @@ function postPreview({ post }) {
   return (
     <>
       <Link href={"posts/" + post.slug}>
-        <article key={post.id} className="container">
+        <a key={post.id} className="container">
           <img className="mainImage" src={post.image} alt="react" />
           <section className="content">
             <h1 className="title">{post.title}</h1>
@@ -24,7 +24,7 @@ function postPreview({ post }) {
               </section>
             </section>
           </section>
-        </article>
+        </a>
       </Link>
       <style jsx>{`
         .container {
@@ -34,6 +34,8 @@ function postPreview({ post }) {
           border-radius: 10px;
           display: flex;
           align-items: center;
+          text-decoration: none;
+          color: #494746;
         }
 
         .container:hover {

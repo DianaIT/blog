@@ -122,6 +122,8 @@ export const blog = css`
       border: none;
       background: none;
       outline: none;
+      cursor: pointer;
+      transition: background-color .4s linear;
     }
 
     button:hover,
