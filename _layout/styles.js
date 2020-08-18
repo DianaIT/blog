@@ -23,6 +23,7 @@ export const styles = css.global`
   body {
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
       Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    overflow-y: scroll;
   }
 
   main {
@@ -128,7 +129,7 @@ export const blog = css`
 
     button:hover,
     .active {
-      background-color: lightgrey;
+      background-color: #78A7C8;
     }
 
     a.button {
