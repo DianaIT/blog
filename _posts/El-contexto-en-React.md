@@ -6,7 +6,7 @@ author: "DianaIT"
 date: "21/08/20"
 updateAt: ""
 image: "./img/react.svg"
-text: "useState, useContext & Custom hooks"
+text: "React.createContext. Como conseguir un 'estado global' en React sin Redux."
 ---
 
 Vamos a conseguir un **estado global** en React con la ayuda de **React.Context**.
@@ -116,7 +116,7 @@ Así nos olvidamos de tener que pasarle un objeto value, como si teníamos que h
 
 También podríamos **acceder a la información** del usuario y **actualizarla** desde el Componente1 o el Componente2 **sin necesidad de props.**
 
-Y ya tendríamos nuestro **React.Context funcionando** 👏
+Y ya tendríamos nuestro **Context funcionando** 👏
 
 ## ⬆️ Mejoras
 
