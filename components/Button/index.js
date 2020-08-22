@@ -1,15 +1,14 @@
 import React from "react"
 import { ButtonStyled } from "./style"
+import Twitter from "components/Twitter"
 
 const Button = ({ icon, text, color, handleClick }) => {
-  const Icon = import(`components/${icon}`)
-
   return (
-    <ButtonStyled style={{ backgroundColor: color }} onClick={handleClick}>
-      <Icon />
+    <ButtonStyled onClick={handleClick}>
+      <Twitter />
       &nbsp; {text}
     </ButtonStyled>
   )
 }
 
-export default React.memoU(Button)
+export default React.memo(Button)
