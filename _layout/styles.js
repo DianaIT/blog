@@ -67,6 +67,10 @@ export const styles = css.global`
     margin: 1rem 0;
   }
 
+  :global(svg) {
+    padding-top: 5px;
+  }
+
   @media (min-width: 1000px) {
     main {
       max-width: 70%;

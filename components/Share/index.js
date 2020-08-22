@@ -1,13 +1,6 @@
 import React from "react"
 import Button from "components/Button"
 
-export default function Share({ icon, text, color, handleClick }) {
-  return (
-    <Button
-      icon={icon}
-      text={text}
-      color={color}
-      onClick={handleClick}
-    ></Button>
-  )
+export default function Share({ text, url }) {
+  return <Button text={text} url={url}></Button>
 }
