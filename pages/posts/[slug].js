@@ -2,7 +2,6 @@ import PostLayout from "pages/post"
 import { getPostBySlug, getAllPosts } from "pages/api"
 
 export default function Post(props) {
-  /*   const slug = props.slug.toLowerCase() */
   return (
     <PostLayout title={props.title} content={props.content} slug={props.slug} />
   )

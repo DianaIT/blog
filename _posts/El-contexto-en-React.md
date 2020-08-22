@@ -12,6 +12,8 @@ text: "React.createContext. Como conseguir un 'estado global' en React sin Redux
 Vamos a conseguir un **estado global** en React con la ayuda de **React.Context**.
 React.Context puedes entenderlo como una objeto dónde guardar **información que se puede compartir** con una serie de componentes a tu elección.
 
+![El contexto en React](../img/contexto.jpg)
+
 ## 🚀 Empezamos
 
 Creamos un **Contexto** 👇
@@ -20,7 +22,9 @@ Creamos un **Contexto** 👇
 📁 ./contexts/context.js
 
 import React from  "react"
-const  Context  = React.createContext({info : "No tienes acceso a este provider"})
+const  Context  = React.createContext(
+    {info : "No tienes acceso a este provider"}
+    )
 export  default Context
 ```
 
@@ -29,7 +33,9 @@ Una de las cosas que nos devuelve este Context es un provider. Este objeto _PROV
 ```
 📁 ./App.js
 
-<Context.Provider value={{"info": "Ahora tienes acceso a este provider"}}>
+<Context.Provider value={
+    {"info": "Ahora tienes acceso a este provider"}
+    }>
     <Component1/>
     <Component2/>
 </Context.Provider>
@@ -41,7 +47,8 @@ import Context from "context"
 import { useContext } from "react"
 
 const context = useContext(Context)
-console.log(context.info) 👉 **Ahora tienes acceso a este provider**
+console.log(context.info)
+👉 **Ahora tienes acceso a este provider**
 
 ```
 
@@ -51,10 +58,11 @@ Si intentamos acceder al valor de info desde un componente que no está dentro d
 nos devolverá el valor por defecto. El componente3 está fuera del Provider 👇
 
 ```
-
 📁 ./App.js
 
-<Context.Provider value={{"info": "Ahora tienes acceso a este provider"}}>
+<Context.Provider value={
+    {"info": "Ahora tienes acceso a este provider"}
+    }>
     <Component1/>
     <Component2/>
 </Context.Provider>
@@ -67,12 +75,13 @@ import Context from "context"
 import { useContext } from "react"
 
 const context = useContext(Context)
-console.log(context.info) 👉 **No tienes acceso a este provider**
+console.log(context.info)
+👉 **No tienes acceso a este provider**
 ```
 
 Pero todavía podemos ir un poco más lejos creando nuestros propio provider personalizado.
 
-## 🥗🍹 Custom Provider
+## 🍹 Custom Provider
 
 Por ejemplo, para poder tener un **useState** dentro, y compartirlo con toda la aplicación 👇
 
