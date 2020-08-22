@@ -1,7 +1,7 @@
 ---
 id: 8
 title: "📝 El Contexto en React"
-tag: 📝
+tag: "front"
 author: "DianaIT"
 date: "21/08/20"
 updateAt: ""
