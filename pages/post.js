@@ -1,19 +1,10 @@
 import DefaultLayout from "@layout/default"
 import { post } from "@layout/styles"
-import Share from "components/Share"
-import { useEffect, useState } from "react"
+import Button from "components/Button"
+import useTweet from "hooks/useTweet"
 
 export default function PostLayout(props) {
-  const [tweet, setTweet] = useState()
-
-  useEffect(() => {
-    const tweetInfo = {
-      text: `${props.title} por @dianait_`,
-      url: `https://dianait.vercel.app/posts/${props.slug}`,
-    }
-    const urlTweet = getUrlShareTwitter(tweetInfo)
-    setTweet(urlTweet)
-  }, [])
+  const tweet = useTweet({ title: props.title, slug: props.slug })
 
   return (
     <DefaultLayout>
@@ -24,16 +15,8 @@ export default function PostLayout(props) {
         </section>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
       </article>
-      <Share text="Compartir" url={tweet}></Share>
+      <Button text="Compartir" url={tweet}></Button>
       <style jsx>{post}</style>
     </DefaultLayout>
   )
-}
-
-function getUrlShareTwitter({ text, url }) {
-  const BASE_URL = "https://twitter.com/intent/tweet"
-  const content = `?text=${encodeURI(text)}`
-  const link = `&url=${url}`
-  console.log(BASE_URL + content + link)
-  return BASE_URL + content + link
 }

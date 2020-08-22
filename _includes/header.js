@@ -11,6 +11,10 @@ function Header() {
         <title>Series & Front | Blog</title>
         <meta name="description" content="Diario de una developer en apurOS" />
         <link rel="shortcut icon" type="icon" href="./img/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Tajawal&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <header>
         <Link href="/">
