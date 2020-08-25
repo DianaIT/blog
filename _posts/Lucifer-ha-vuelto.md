@@ -6,10 +6,10 @@ author: "DianaIT"
 date: "23/08/20"
 updateAt: ""
 image: "./img/lucifer.jpg"
-text: "Lucifer nunca miente. Va a terapia. No le gusta que le juzguen. Es asesor de la policía de Los Angeles. Y por si fuera poco, regenta la discoteca más cool de la ciudad. LUX."
+text: "Lucifer nunca miente. Va a terapia. No le gusta que le juzguen. Es asesor de la policía de Los Angeles. Y por si fuera poco, regenta la discoteca más cool de la ciudad."
 ---
 
-**Lucifer nunca miente. Va a terapia**. No le gusta que le juzguen. Es asesor de la policía de Los Angeles. Y por si fuera poco, **regenta la discoteca más cool de la ciudad. LUX**.
+**Lucifer nunca miente. Va a terapia**. No le gusta que le juzguen. Es asesor de la policía de Los Angeles. Y por si fuera poco, **regenta la discoteca más cool de la ciudad.**.
 
 - 📺 [Netflix](https://www.netflix.com/es/title/80057918)
 - 📀 5 temporadas
