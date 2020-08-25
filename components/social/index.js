@@ -15,6 +15,9 @@ export default function Social() {
         <a href="https://www.linkedin.com/in/dianahernandezsoler">
           <img src="../icons/linkedin.svg" alt="dianahernandezsoler" />
         </a>
+        <a href="./rss.xml">
+          <img src="../icons/rss.svg" alt="feed" />
+        </a>
       </nav>
       <style jsx>{socialStyle}</style>
     </>
