@@ -10,9 +10,12 @@ export default function PostLayout(props) {
     <DefaultLayout>
       <article>
         <h1>{props.title}</h1>
-        <section>
-          <div>{props.date}</div>
+        <section
+          style={{ marginTop: "-25px", float: "right", fontSize: ".9rem" }}
+        >
+          <strong>Dianait</strong> | <span>{props.date}</span>
         </section>
+
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
       </article>
       <Button text="Compartir" url={tweet}></Button>

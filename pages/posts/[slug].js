@@ -3,7 +3,12 @@ import { getPostBySlug, getAllPosts } from "pages/api"
 
 export default function Post(props) {
   return (
-    <PostLayout title={props.title} content={props.content} slug={props.slug} />
+    <PostLayout
+      title={props.title}
+      content={props.content}
+      slug={props.slug}
+      date={props.date}
+    />
   )
 }
 
