@@ -22,6 +22,8 @@ export default css`
 
   @media (min-width: 1000px) {
     nav > a > img {
+      width: 34px;
+      height: 34px;
       padding: 5px;
     }
   }
