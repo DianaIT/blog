@@ -8,10 +8,15 @@ export default function Home(props) {
   useEffect(() => {
     async function fetchData() {
       const response = await getAllPosts()
-      setPosts(response)
+      const filteredPost = filterPosts(response, "series")
+      setPosts(filteredPost)
     }
     fetchData()
   }, [])
 
   return <Blog props={props} posts={posts} />
+}
+
+function filterPosts(response, tag) {
+  return response.filter((post) => post.tag === tag)
 }
