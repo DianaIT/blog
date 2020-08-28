@@ -144,7 +144,16 @@ ul {
 `
 /* MIRAR POR QUÉ PASA ESTO */
 export const post = css`
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  @font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "Poiret One";
+    src: url(./fonts/PoiretOne-Regular.ttf);
+  }
+
   h1 {
     font-size: 2.5rem;
     font-family: "Poiret One", cursive;
