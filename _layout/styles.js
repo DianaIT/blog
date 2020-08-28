@@ -78,7 +78,7 @@ export const styles = css.global`
 export const blog = css`
   @font-face {
     font-family: "Mulish";
-    src: url("../../fonts/Mulish-Regular.ttf");
+    src: url("../fonts/Mulish-Regular.ttf");
   }
 
   div {
@@ -146,12 +146,12 @@ ul {
 export const post = css`
   @font-face {
     font-family: Roboto;
-    src: url(./fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
   }
 
   @font-face {
     font-family: "Poiret One";
-    src: url(./fonts/PoiretOne-Regular.ttf);
+    src: url(../fonts/PoiretOne-Regular.ttf);
   }
 
   h1 {
