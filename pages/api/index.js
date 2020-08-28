@@ -47,3 +47,7 @@ export async function search(q) {
     : []
   return result
 }
+
+export function filterPosts(response, tag) {
+  return response.filter((post) => post.tag === tag)
+}
