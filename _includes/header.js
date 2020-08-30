@@ -1,8 +1,8 @@
 import React from "react"
 import Head from "next/head"
 import styles from "./styles"
-import Link from "next/link"
 import Social from "components/social/index"
+import Link from "next/link"
 
 function Header() {
   return (
@@ -22,6 +22,7 @@ function Header() {
             />
           </a>
         </Link>
+
         <Social />
       </header>
 

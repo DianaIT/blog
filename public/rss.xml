@@ -9,90 +9,90 @@
         
         <item>
             <title>📺 El diario de River Song. Sobre Doctor Who</title>
-            <link>https://www.dianait.vercel.app/posts/El-diario-de-River-Song</link>
+            <link>https://www.dianait.vercel.app/El-diario-de-River-Song</link>
             <pubDate>28/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/El-diario-de-River-Song</guid>
+            <guid>https://www.dianait.vercel.app/El-diario-de-River-Song</guid>
             <description>
             &lt;![CDATA[ Escribí esto como homenaje a una serie que me encanta. Doctor Who. Y quería recuperarlo por aquí. ]]&gt;
             </description>
         </item>
         <item>
             <title>📺 Lucifer ha vuelto</title>
-            <link>https://www.dianait.vercel.app/posts/Lucifer-ha-vuelto</link>
+            <link>https://www.dianait.vercel.app/Lucifer-ha-vuelto</link>
             <pubDate>23/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/Lucifer-ha-vuelto</guid>
+            <guid>https://www.dianait.vercel.app/Lucifer-ha-vuelto</guid>
             <description>
             &lt;![CDATA[ Lucifer nunca miente. Va a terapia. No le gusta que le juzguen. Es asesor de la policía de Los Angeles. Y por si fuera poco, regenta la discoteca más cool de la ciudad. LUX. ]]&gt;
             </description>
         </item>
         <item>
             <title>📝 El Contexto en React</title>
-            <link>https://www.dianait.vercel.app/posts/El-contexto-en-React</link>
+            <link>https://www.dianait.vercel.app/El-contexto-en-React</link>
             <pubDate>21/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/El-contexto-en-React</guid>
+            <guid>https://www.dianait.vercel.app/El-contexto-en-React</guid>
             <description>
             &lt;![CDATA[ React.createContext. Como conseguir un 'estado global' en React sin Redux. ]]&gt;
             </description>
         </item>
         <item>
             <title>🙆 Saliendo de mi zona de confort</title>
-            <link>https://www.dianait.vercel.app/posts/Saliendo-de-mi-zona-de-confort</link>
+            <link>https://www.dianait.vercel.app/Saliendo-de-mi-zona-de-confort</link>
             <pubDate>17/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/Saliendo-de-mi-zona-de-confort</guid>
+            <guid>https://www.dianait.vercel.app/Saliendo-de-mi-zona-de-confort</guid>
             <description>
             &lt;![CDATA[ A veces me cuesta mucho dejarme ver. Y es algo en lo que trabajo cada día. Este es mi viaje. ]]&gt;
             </description>
         </item>
         <item>
             <title>📝 Prettier y Eslint juntos, pero no revueltos</title>
-            <link>https://www.dianait.vercel.app/posts/Prettier-y-Eslint-juntos-pero-no-revueltos</link>
+            <link>https://www.dianait.vercel.app/Prettier-y-Eslint-juntos-pero-no-revueltos</link>
             <pubDate>11/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/Prettier-y-Eslint-juntos-pero-no-revueltos</guid>
+            <guid>https://www.dianait.vercel.app/Prettier-y-Eslint-juntos-pero-no-revueltos</guid>
             <description>
             &lt;![CDATA[ Utliza los mejor de los dos en tus proyectos. ]]&gt;
             </description>
         </item>
         <item>
             <title> 📝 CSS Modules</title>
-            <link>https://www.dianait.vercel.app/posts/css-modules</link>
+            <link>https://www.dianait.vercel.app/css-modules</link>
             <pubDate>7/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/css-modules</guid>
+            <guid>https://www.dianait.vercel.app/css-modules</guid>
             <description>
             &lt;![CDATA[ Vamos a ver como funciona esto de CSS Modules, y porque mola tanto el CSS scoped. ]]&gt;
             </description>
         </item>
         <item>
             <title>📝 Custom snippets en VSC (II)</title>
-            <link>https://www.dianait.vercel.app/posts/Snippets-en-VSC-II</link>
+            <link>https://www.dianait.vercel.app/Snippets-en-VSC-II</link>
             <pubDate>06/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/Snippets-en-VSC-II</guid>
+            <guid>https://www.dianait.vercel.app/Snippets-en-VSC-II</guid>
             <description>
             &lt;![CDATA[ El snippet que utilizo para los artículos de este blog. ]]&gt;
             </description>
         </item>
         <item>
             <title>📝 Custom snippets en VSC</title>
-            <link>https://www.dianait.vercel.app/posts/snippets-en-VSC</link>
+            <link>https://www.dianait.vercel.app/snippets-en-VSC</link>
             <pubDate>5/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/snippets-en-VSC</guid>
+            <guid>https://www.dianait.vercel.app/snippets-en-VSC</guid>
             <description>
             &lt;![CDATA[ Vamos a hacer un pequeño snippet para crear un componente de react pulsando 3 teclas. ]]&gt;
             </description>
         </item>
         <item>
             <title>📺 Condena Australiana. Sobre Wentworth</title>
-            <link>https://www.dianait.vercel.app/posts/wentworth</link>
+            <link>https://www.dianait.vercel.app/wentworth</link>
             <pubDate>4/08/20</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/wentworth</guid>
+            <guid>https://www.dianait.vercel.app/wentworth</guid>
             <description>
             &lt;![CDATA[ La Orange is the new Black Australiana, sólo que mejor. ]]&gt;
             </description>
         </item>
         <item>
             <title>📝 Elementary como Mac</title>
-            <link>https://www.dianait.vercel.app/posts/ElmentaryOS-como-MacOS</link>
+            <link>https://www.dianait.vercel.app/ElmentaryOS-como-MacOS</link>
             <pubDate>13/07/19</pubDate>
-            <guid>https://www.dianait.vercel.app/posts/ElmentaryOS-como-MacOS</guid>
+            <guid>https://www.dianait.vercel.app/ElmentaryOS-como-MacOS</guid>
             <description>
             &lt;![CDATA[ Vamos a dejar ElementaryOS con el layout de MacOS. ]]&gt;
             </description>

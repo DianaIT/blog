@@ -4,9 +4,9 @@ import Link from "next/link"
 function postPreview({ post }) {
   return (
     <>
-      <Link href={"posts/" + post.slug}>
+      <Link href={"[slug]"} as={`${post.slug}`}>
         <a key={post.id} className="container">
-          <img className="mainImage" src={post.image} alt="react" />
+          <img className="mainImage" src={post.image} alt="post.title" />
           <section className="content">
             <h1 className="title">{post.title}</h1>
             <p className="text">{post.text}</p>
