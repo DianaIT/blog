@@ -33,3 +33,6 @@ _¿Tu miedo a las enfermedades? ignorancia, prejuicio.En cuanto a tu resignació
 <center>👏👏👏👏👏👏👏👏</center>
 
 Este capítulo me ha tocado la vena sensible. Y lo cierto es que vemos aflorar esa faceta de Ally muy a menudo, aunque la enmascare tras su excentricidad. Después de llamar patética a Eleine porque no es más que una simple secretaria, ésta le responde “Siento decepcionarte, pero me gusta mi vida” Y lo cierto es que, Ally, tú, no puedes decir lo mismo.
+<br />
+<br />
+<br />
