@@ -9,6 +9,7 @@ package-lock.json
 logs
 **/*.backup.*
 **/*.back.*
+schedules
 
 node_modules
 bower_components

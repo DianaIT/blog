@@ -6,7 +6,7 @@ author: "DianaIT"
 date: "27/12/20"
 updateAt: ""
 image: "./img/allymcbeal_preview.jpg"
-text:
+text: "No me había dado cuenta de lo prejuicioso que era el personaje de Ally, cuando disfrutaba de la serie, no era consciente de nada de lo que ahora mismo me hace torcer el gesto"
 ---
 
 ![Ally McBeal logo](../img/allymbealpost.jpg)
