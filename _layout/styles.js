@@ -194,6 +194,9 @@ export const post = css`
     font-family: Verdana;
     font-size: 1.2rem;
   }
+  span {
+    margin: 1rem;
+  }
 
   @media (min-width: 1100px) {
     h1 {
