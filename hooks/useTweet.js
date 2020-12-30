@@ -6,7 +6,7 @@ export default function useTweet({ title, slug }) {
   useEffect(() => {
     const tweetInfo = {
       text: `${title} por @dianait_`,
-      url: `https://dianait.vercel.app/posts/${slug}`,
+      url: `https://dianait.vercel.app/${slug}`,
     }
 
     const urlTweet = getUrlShareTwitter(tweetInfo)
