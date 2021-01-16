@@ -156,7 +156,6 @@ export const post = css`
 
   h1 {
     font-size: 2.5rem;
-    font-family: "Poiret One", cursive;
     text-align: center;
     border-bottom: 1px solid lightgrey;
     padding-bottom: 1rem;

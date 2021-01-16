@@ -38,10 +38,6 @@ function postPreview({ post }) {
           color: #494746;
         }
 
-        .container:hover {
-          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-        }
-
         span {
           margin-right: 8px;
         }
@@ -87,9 +83,6 @@ function postPreview({ post }) {
             max-width: 800px;
             margin: 0.7rem auto;
             font-size: 1rem;
-            -webkit-box-shadow: 7px 6px 13px -4px rgba(166, 184, 240, 1);
-            -moz-box-shadow: 7px 6px 13px -4px rgba(166, 184, 240, 1);
-            box-shadow: 7px 6px 13px -4px rgba(166, 184, 240, 1);
           }
 
           .author {
