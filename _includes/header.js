@@ -23,7 +23,9 @@ function Header() {
           </a>
         </Link>
 
-        <Social />
+        <Social
+          props={["linkedin", "github", "twitter", "instagram", "feed"]}
+        />
       </header>
 
       <style jsx>{styles}</style>
