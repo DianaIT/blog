@@ -5,7 +5,7 @@ export default function useTweet({ title, slug }) {
 
   useEffect(() => {
     const tweetInfo = {
-      text: `${title} por @dianait_`,
+      text: ` 🌟 ${title} 🌟  por 🎯 @dianait_`,
       url: `https://dianait.vercel.app/${slug}`,
     }
 

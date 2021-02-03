@@ -9,14 +9,14 @@ export default function PostLayout(props) {
 
   return (
     <DefaultLayout>
-      <article>
+      <article style={{ marginBottom: "4em" }}>
         <h1>{props.title}</h1>
         <section
           style={{ marginTop: "-25px", float: "right", fontSize: "1.1rem" }}
         >
-          <span>{props.date}</span> |
+          <span> 📆 {props.date}</span> |
           <span>
-            <strong>{readingtime} min read </strong>
+            <strong> ⏲ {readingtime} min read </strong>
           </span>
         </section>
 
