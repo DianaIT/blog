@@ -171,7 +171,8 @@ export const post = css`
   }
 
   div {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     color: #333;
     overflow: hidden;
     font-family: Roboto, Helvetica, "Segoe UI", Arial, freesans, sans-serif;
