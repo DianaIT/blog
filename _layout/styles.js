@@ -164,7 +164,6 @@ export const post = css`
   }
 
   article {
-    width: 90%;
     font-family: Roboto, Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-size: 1.1rem;
     word-break: break-word;
@@ -172,8 +171,7 @@ export const post = css`
   }
 
   div {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+    width: 100%;
     color: #333;
     overflow: hidden;
     font-family: Roboto, Helvetica, "Segoe UI", Arial, freesans, sans-serif;
@@ -198,13 +196,12 @@ export const post = css`
   }
 
   @media (min-width: 1100px) {
-    h1 {
+    ¡ h1 {
       font-size: 3.5rem;
     }
     article {
       color: #333;
       font-size: 1.3rem;
-      width: 70%;
       word-break: break-word;
     }
 
