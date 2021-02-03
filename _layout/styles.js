@@ -164,6 +164,7 @@ export const post = css`
   }
 
   article {
+    width: 100%;
     font-family: Roboto, Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-size: 1.1rem;
     word-break: break-word;
@@ -171,7 +172,8 @@ export const post = css`
   }
 
   div {
-    width: 90%;
+    min-width: 90%;
+    width: 95%;
     margin: 0 auto;
     color: #333;
     overflow: hidden;
