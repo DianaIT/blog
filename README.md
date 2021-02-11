@@ -1,6 +1,6 @@
 <p align="center">
 <img align="center" src="/public/img/header.PNG" alt="header blog" />
-<p align="center"><a href="https://twitter.com/dianait_"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/twitter.svg" alt="dianait_" width="30"/></a>
+<p align="center"><a href="https://twitter.com/dianait_"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/twitter.png" alt="dianait_" width="30"/></a>
 <a href="https://www.linkedin.com/in/dianahernandezsoler/"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/linkedin.svg" alt="dianahernandezsoler" width="30"/></a>
 <a href="https://www.instagram.com/dianait_"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/instagram.svg" alt="dianait" width="30"/></a>
 </p>
