@@ -47,7 +47,7 @@ class = "ARCHIVO_CLASE_ID_UNICO"
 <h1 class="styles_foo_4xfe1">CSS</h1>
 ```
 
-## 🤚 A tener en cuanta
+## 🤚 A tener en cuenta
 
 - Se recomienda el uso de **camelCase** para el nombrado de las clases, porque la alternativa, **kebab-case** puede causar un comportamiento inesperado al intentar acceder mediante **style.class-name**
 
