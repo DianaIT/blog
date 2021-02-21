@@ -1,4 +1,4 @@
-import Portfolio from "components/Portfolio"
+import Portfolio from "./components/Portfolio"
 import DefaultLayout from "@layout/default"
 
 export default function Home(props) {
