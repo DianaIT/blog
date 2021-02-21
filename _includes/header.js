@@ -17,9 +17,9 @@ function Header() {
         <link rel="shortcut icon" type="icon" href="./img/favicon.ico" />
       </Head>
       <header>
-        {location === "/blog" ? (
+        {location !== "/" && location !== "/portfolio" ? (
           <>
-            <Link href="/">
+            <Link href={location === "/blog" ? "/" : "/blog"}>
               <a>
                 <img
                   style={{ width: "200px", height: "170px" }}

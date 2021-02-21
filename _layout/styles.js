@@ -164,7 +164,7 @@ export const post = css`
   }
 
   article {
-    width: 100%;
+    width: 100vh;
     font-family: Roboto, Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-size: 1.1rem;
     word-break: break-word;
