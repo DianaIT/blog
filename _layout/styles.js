@@ -164,7 +164,7 @@ export const post = css`
   }
 
   article {
-    width: 100vh;
+    width: 100%;
     font-family: Roboto, Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-size: 1.1rem;
     word-break: break-word;
@@ -199,13 +199,14 @@ export const post = css`
   }
 
   @media (min-width: 1100px) {
-    ¡ h1 {
+    h1 {
       font-size: 3.5rem;
     }
     article {
       color: #333;
       font-size: 1.3rem;
       word-break: break-word;
+      width: 70%;
     }
 
     :global(code) {

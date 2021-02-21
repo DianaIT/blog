@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       <Head>
-        <title>Dianait | Developer </title>
+        <title>Dianait</title>
         <meta name="description" content="Página personal de Diana Hernández" />
         <link rel="shortcut icon" type="icon" href="./img/favicon.ico" />
       </Head>
@@ -43,9 +43,3 @@ function Header() {
 }
 
 export default React.memo(Header)
-
-/*
-
-
-
-*/
