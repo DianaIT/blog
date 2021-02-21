@@ -1,15 +1,19 @@
+import Link from "next/link"
 import useSocial from "../../hooks/useSocial"
 import socialStyle from "./socialStyle"
+
 export default function Social({ props }) {
   const socials = useSocial()
   return (
     <>
       <nav>
-        {props.map(function (social, idx) {
+        {props.map(function (social) {
           return (
-            <a key={idx} href={socials[social].url}>
-              <img src={`../icons/${social}.svg`} alt={socials[social].alt} />
-            </a>
+            <Link key={socials[social].id} href={socials[social].url}>
+              <a>
+                <img src={`../icons/${social}.svg`} alt={socials[social].alt} />
+              </a>
+            </Link>
           )
         })}
       </nav>

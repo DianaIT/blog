@@ -14,8 +14,7 @@ export default css`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: space-around;
     margin: 0.3rem;
   }
   ul {
@@ -45,7 +44,7 @@ export default css`
     }
 
     header {
-      width: 70%;
+      width: 80%;
     }
 
     img {

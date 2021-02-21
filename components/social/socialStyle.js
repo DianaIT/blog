@@ -10,21 +10,13 @@ export default css`
   }
 
   nav > a > img {
-    width: 39px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     padding: 3px;
   }
 
   nav {
     margin-right: 32px;
     margin-top: 32px;
-  }
-
-  @media (min-width: 1000px) {
-    nav > a > img {
-      width: 34px;
-      height: 34px;
-      padding: 5px;
-    }
   }
 `
