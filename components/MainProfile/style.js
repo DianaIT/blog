@@ -9,6 +9,7 @@ export const Image = styled.img`
 export const BackgroundImage = styled.section`
   border: 2px solid #466f35;
   border-radius: 3%;
+  width: 25%;
   margin-top: -2.5rem;
   background-color: #6ca04fdd;
   box-shadow: 2px 2px 3px #466f35;
@@ -37,7 +38,8 @@ export const Container = styled.div`
 export const Text = styled.p`
   font-size: 1.25rem;
   max-width: 60%;
-  margin-left: 5vh;
+  margin-left: -3vh;
+
   @media (max-width: 768px) {
     max-width: 80%;
     margin-left: 0;
