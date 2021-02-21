@@ -15,7 +15,6 @@ export default function MainProfile() {
         aquí 👇
         <Social
           props={["linkedin", "github", "twitter", "instagram", "codepen"]}
-          width="49"
         />
       </Text>
     </Container>
