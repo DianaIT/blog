@@ -72,7 +72,7 @@ export const projects = [
     id: 5,
     name: "🚲 EcoHolder",
     mainColor: "#53D485",
-    img: "portfolio/ecoholder.jpg",
+    img: "portfolio/ecoHolder.JPG",
     description:
       "Mide la contaminación de tu zona. Nuestra app te muestra un mapa y al escoger un destino se te aconseja cuales son las rutas con el menor nivel de gases perjudiciales.",
     repository: "https://github.com/DianaIT/ecoHolder",

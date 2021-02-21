@@ -38,7 +38,6 @@ export const Text = styled.p`
   font-size: 1.25rem;
   max-width: 60%;
   margin-left: 5vh;
-  font-family: fantasy;
   @media (max-width: 768px) {
     max-width: 80%;
     margin-left: 0;
