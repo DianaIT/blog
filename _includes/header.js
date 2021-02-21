@@ -4,7 +4,6 @@ import styles from "./styles"
 import Link from "next/link"
 import Menu from "components/Menu"
 import Social from "components/social/index"
-
 import { useRouter } from "next/router"
 
 function Header() {
@@ -13,8 +12,8 @@ function Header() {
   return (
     <>
       <Head>
-        <title>Series & Front | Blog</title>
-        <meta name="description" content="Diario de una developer en apurOS" />
+        <title>Dianait | Developer </title>
+        <meta name="description" content="Página personal de Diana Hernández" />
         <link rel="shortcut icon" type="icon" href="./img/favicon.ico" />
       </Head>
       <header>
