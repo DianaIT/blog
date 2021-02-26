@@ -64,8 +64,8 @@ export const projects = [
       { id: 1, name: "ionic", width: defaultWith + 40, extension: ".svg" },
       { id: 2, name: "angular", width: defaultWith + 20, extension: ".svg" },
 
-      { id: 3, name: "Python", width: defaultWith + 20, extension: ".svg" },
-      { id: 4, name: "ROS", width: 80, extension: ".png" },
+      { id: 3, name: "python", width: defaultWith + 20, extension: ".svg" },
+      { id: 4, name: "ros", width: 80, extension: ".png" },
     ],
   },
   {
