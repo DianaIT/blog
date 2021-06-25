@@ -5,6 +5,7 @@ export const styles = css.global`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
   }
 
   body {

@@ -19,7 +19,7 @@ export default function Menu() {
   return (
     <ul className="snip1226">
       {menu.map(function ({ id, section }) {
-        const path = section === "home" ? "" : section
+        const path = (section === "home") ? "" : section
         return (
           <li key={id}>
             <Link href={`/${path}`} key={id}>

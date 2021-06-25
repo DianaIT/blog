@@ -31,14 +31,15 @@ export const Container = styled.div`
   line-height: 1.4;
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 0;
-    width: 100%;
+    padding: 1rem 0 0 0;
   }
 `
+
 export const Text = styled.p`
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   max-width: 60%;
   margin-left: -3vh;
+  text-align: center;
 
   @media (max-width: 768px) {
     max-width: 80%;

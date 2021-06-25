@@ -5,7 +5,7 @@ export default css`
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    margin: 3rem 0 0 0;
+    margin: 1rem 0 0 0;
   }
   .snip1226 * {
     box-sizing: border-box;
