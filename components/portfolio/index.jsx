@@ -17,7 +17,9 @@ export default function portfolio() {
             repository={project.repository}
             deploy={project.deploy}
           />
+                
         ))}
+
       </PortfolioContainer>
     </>
   )

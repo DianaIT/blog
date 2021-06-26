@@ -22,12 +22,12 @@ export default function Card({
 {
 
   return (
-    <Container>
-      <Image src={`./img/${img}`} alt={title} />
-      <section>
-      
-          <Title style={{ color: mainColor }}>{title}</Title>
 
+    <Container>
+      
+      <Image src={`./img/${img}`} alt={title} />
+      <section >
+  <Title style={{ color: mainColor }}>{title}</Title>
         <Descripction>{description}</Descripction>
         <ListOfLogos>
           {listOfStack.map(({ id, width, name, extension }) => {
@@ -43,12 +43,16 @@ export default function Card({
           })}
         
         </ListOfLogos>
-      </section>
-      <ContainerLinks>
-      <Anchor href={ repository }>Ver Código</Anchor>
-        <Anchor href={deploy}>Ver Demo</Anchor>
+              <ContainerLinks>
+        { repository && <Anchor href={ repository }>Ver Código</Anchor>}
+        { deploy && <Anchor href={deploy}>Ver Demo</Anchor> }
         </ContainerLinks>
+      </section>
+     
+
     </Container>
+
+
   )
 }
 

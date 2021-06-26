@@ -1,18 +1,15 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  width: 300px;
-  position: relative;
-  border-radius: 2%;
-  box-shadow: 2px -3px 2px #719fb0;
-  margin: 1.5rem;
+  margin: 2rem 0;
+  padding: 0.5rem;
+  display: flex;
+  border: 3px solid lightgrey;
+  border-radius: 5px;
 `
 
 export const Image = styled.img`
-  width: 100%;
-  min-width: 300px;
-  max-height: 100vh;
-  border-radius: 2% 2% 0 0;
+  width: 70vh;
 `
 export const GitHubLink = styled.div`
   position: absolute;
@@ -43,7 +40,7 @@ export const TextGitHub = styled.p`
 `
 
 export const Title = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-top: 1rem;
   font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
     sans-serif;
@@ -52,7 +49,8 @@ export const Title = styled.p`
 `
 
 export const Logo = styled.img`
-  padding: 0.3rem;
+  padding: 0rem;
+  margin: 0.8rem;
 `
 
 export const ListOfLogos = styled.ul`
@@ -65,7 +63,7 @@ export const ListOfLogos = styled.ul`
 
 export const Descripction = styled.p`
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: -0.5rem 0.5rem 0 0.5rem;
+  margin: 0 2.5rem;
   font-size: 0.9rem;
 `
 export const Anchor = styled.a`
