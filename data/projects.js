@@ -7,14 +7,12 @@ export const projects = [
     secondaryColor: "#F0E68C",
     img: "portfolio/handflix.jpg",
     description:
-      "Os presento a Handflix. Un reproductor de video que funciona con gestos. Trabajo final de la asigntura de Visión Artificial.",
+      "Os presento a Handflix. Un reproductor de video que funciona con reconocimiento de gestos. Trabajo final de la asigntura de Visión Artificial.",
     repository: "https://github.com/mawcoo/HandFlix",
     deploy: "",
     stack: [
       { id: 1, name: "python", width: defaultWith + 10, extension: ".svg" },
       { id: 2, name: "flask", width: defaultWith + 10, extension: ".svg" },
-      { id: 3, name: "html5", width: defaultWith + 10, extension: ".svg" },
-      { id: 4, name: "css3", width: defaultWith + 10, extension: ".svg" },
       { id: 5, name: "mediapipe", width: defaultWith * 5, extension: ".png" },
     ],
   },
@@ -25,7 +23,7 @@ export const projects = [
     secondaryColor: "#719fb0",
     img: "portfolio/stackgen.jpg",
     description:
-      "StackGen te genera un png con tu stack favorito, bueno, en ocasiones, no tan tecnólogico 😜 Escoge hasta tu cafetera. ",
+      "Quería aprender React y se me ocurrió esta idea. StackGen te genera un png con tu stack tecnológico favorito, bueno, en ocasiones, no tan tecnólogico 😜 Escoge hasta tu cafetera. ",
     repository: "https://github.com/DianaIT/stackgen",
     deploy: "https://stackgen.vercel.app ",
     stack: [
@@ -46,7 +44,7 @@ export const projects = [
     secondaryColor: "#719fb0",
     img: "portfolio/seriesandfront.jpg",
     description:
-      "Blog de series y desarrollo web. Me gusta mezclar cosas. Tras aprender React, quería probar Next.js, y esta fue la excusa perfecfa.",
+      "Blog de series y desarrollo. Hace tiempo tenía un blog donde escribía de series de televisión y como me gusta mezclar cosas, tras aprender React, quería probar Next.js, y esta fue la excusa perfeta.",
     repository: "https://github.com/DianaIT/blog",
     deploy: "https://dianait.vercel.app/blog",
     stack: [
@@ -61,7 +59,7 @@ export const projects = [
     secondaryColor: "#719fb0",
     img: "portfolio/jinkobot.jpg",
     description:
-      "Su nombre es Jinko y es un robot para apoyo en terapia con niños con TEA.",
+      "Su nombre es Jinkobot y es un robot para apoyo en terapia con niños con TEA. Disfruté tanto con este proyecto que ahora mismo estoy trabajando en él y mejorándolo para presentarlo como mi Trabajo Final de Grado.",
     repository: "https://github.com/DianaIT/JinkoRobotics/tree/develop",
     deploy: "",
     stack: [
@@ -78,7 +76,7 @@ export const projects = [
     secondaryColor: "#719fb0",
     img: "portfolio/ecoHolder.JPG",
     description:
-      "Mide la contaminación de tu zona. Nuestra app te muestra un mapa y al escoger un destino se te aconseja cuales son las rutas con el menor nivel de gases perjudiciales.",
+      "Al escoger un destino se te aconseja cuales son las rutas con el menor nivel de gases perjudiciales. Utilizamos firebase para servir datos en tiempo real pero además tenemos nuestro propio servidor en node para el procesamiento de los datos que se guardan en firestore.",
     repository: "https://github.com/DianaIT/ecoHolder",
     deploy: "",
     stack: [
