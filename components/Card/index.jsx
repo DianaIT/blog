@@ -23,11 +23,11 @@ export default function Card({
 
   return (
 
-    <Container>
+    <Container style={{background:mainColor + "75"}}>
       
       <Image src={`./img/${img}`} alt={title} />
       <section >
-  <Title style={{ color: mainColor }}>{title}</Title>
+  <Title style={{ color: "white" }}>{title}</Title>
         <Descripction>{description}</Descripction>
         <ListOfLogos>
           {listOfStack.map(({ id, width, name, extension }) => {

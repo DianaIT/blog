@@ -1,10 +1,9 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  margin: 2rem 0;
+  margin: 1rem 0;
   padding: 0.5rem;
   display: flex;
-  border: 3px solid lightgrey;
   border-radius: 5px;
 `
 
