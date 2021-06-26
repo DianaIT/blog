@@ -38,7 +38,7 @@ export const Container = styled.div`
 export const Text = styled.p`
   font-size: 1.1rem;
   max-width: 60%;
-  margin-left: -3vh;
+  margin-left: -1vh;
   text-align: center;
 
   @media (max-width: 768px) {

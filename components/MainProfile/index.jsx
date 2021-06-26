@@ -7,13 +7,12 @@ export default function MainProfile() {
         <Image src="./img/main/hulk.png" />
       </BackgroundImage>
       <Text>
-        <h1>¡Hola, soy Diana!</h1>
+        <h1 style={{marginBottom: "-1rem"} }>¡Hola, soy Diana!</h1>
         <br />
-        👩‍💻 | 🖖 | 🏳️‍🌈 | 📸 | 📺 | ☕ | ✈️ <br /> <div style={{textAlign: "left", marginTop: ".6rem"}}>Desarrolladora frontend. Friki
-        de nacimiento, me gusta cualquier cosa con canela y reir a carcajadas.
-        Puedes encontrarme por aquí 👇</div>
+        👩‍💻 | 🖖 | 🏳️‍🌈 | 📸 | 📺 | ☕ | ✈️ <br /> <div style={{textAlign: "left", marginTop: ".6rem"}}>Desarrolladora mobile junior. Friki
+        de nacimiento, me gusta la fotografía, cualquier cosa con canela y reir a carcajadas.</div>
         <Social
-          props={["linkedin", "github", "twitter", "instagram", "codepen"]}
+          props={["linkedin", "github"]}
         />
       </Text>
     </Container>

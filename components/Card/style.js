@@ -44,14 +44,11 @@ export const TextGitHub = styled.p`
 
 export const Title = styled.p`
   font-size: 1.5rem;
+  margin-top: 1rem;
   font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
     sans-serif;
   text-align: center;
   font-weight: 700;
-  transition: transform 0.1s linear;
-  &:hover {
-    transform: scale(1.2);
-  }
 `
 
 export const Logo = styled.img`
@@ -68,6 +65,21 @@ export const ListOfLogos = styled.ul`
 
 export const Descripction = styled.p`
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0.5rem;
-  font-size: 0.8rem;
+  margin: -0.5rem 0.5rem 0 0.5rem;
+  font-size: 0.9rem;
+`
+export const Anchor = styled.a`
+  text-decoration: none;
+  background: steelblue;
+  padding: 8px;
+  color: white;
+  display: block;
+  margin: 8px;
+  border-radius: 5px;
+`
+
+export const ContainerLinks = styled.section`
+  display: flex;
+  width: 100%;
+  justify-content: center;
 `
