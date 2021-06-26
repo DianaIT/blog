@@ -11,33 +11,6 @@ export const Container = styled.div`
 export const Image = styled.img`
   width: 70vh;
 `
-export const GitHubLink = styled.div`
-  position: absolute;
-  right: -45px;
-  top: -10px;
-  width: 0;
-  height: 0;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-bottom: 70px solid #719fb0;
-  transition: border-bottom 0.5s linear;
-  transform: rotate(45deg);
-  &:hover {
-    border-bottom: 70px solid #91abb5;
-  }
-`
-
-export const TextGitHub = styled.p`
-  width: 2.5rem;
-  margin-left: -20px;
-  margin-top: 21px;
-  font-size: 1.15rem;
-  color: white;
-  transition: transform 0.1s linear;
-  &:hover {
-    transform: scale(1.1);
-  }
-`
 
 export const Title = styled.p`
   font-size: 1.7rem;

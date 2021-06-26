@@ -56,16 +56,3 @@ export default function Card({
   )
 }
 
-
-/*
-
-    <a href={repository} title="Ir al repositorio en GitHub">
-        <GitHubLink>
-          <TextGitHub>
-            <img src="./img/social/github.svg" width="50" alt="github" />
-          </TextGitHub>
-        </GitHubLink>
-      </a> 
-
-
-*/
