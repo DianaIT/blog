@@ -3,9 +3,7 @@ import Social from "../social"
 export default function MainProfile() {
   return (
     <Container>
-      <BackgroundImage>
-        <Image src="./img/main/hulk.png" />
-      </BackgroundImage>
+    
       <Text>
         <h1 style={{ marginBottom: "-1rem" }}>¡Hola, soy <span style={{color: "#218d7e"}}>Diana</span>!</h1>
         <br />
@@ -15,6 +13,9 @@ export default function MainProfile() {
           props={["linkedin", "github"]}
         />
       </Text>
+        <BackgroundImage>
+        <Image src="./img/main/hulk.png" />
+      </BackgroundImage>
     </Container>
   )
 }

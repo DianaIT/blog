@@ -28,9 +28,7 @@ function Header() {
                 />
               </a>
             </Link>
-            <Social
-              props={["linkedin", "github", "twitter", "instagram", "feed"]}
-            />
+            <Social props={["linkedin", "github", "twitter", "feed"]} />
           </>
         ) : (
           <Menu />

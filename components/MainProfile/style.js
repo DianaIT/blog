@@ -9,8 +9,8 @@ export const Image = styled.img`
 export const BackgroundImage = styled.section`
   border: 2px solid #466f35;
   border-radius: 3%;
-  width: 25%;
-  margin-top: -2.5rem;
+  width: 40%;
+  margin-left: 1rem;
   background-color: #6ca04fdd;
   box-shadow: 2px 2px 3px #466f35;
   transform: rotate(10deg);
