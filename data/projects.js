@@ -3,7 +3,8 @@ export const projects = [
   {
     id: 1,
     name: "👋 FLIX",
-    mainColor: "red",
+    mainColor: "#B22222",
+    secondaryColor: "#F0E68C",
     img: "portfolio/handflix.jpg",
     description:
       "Os presento a Handflix. Un reproductor de video que funciona con gestos. Trabajo final de la asigntura de Visión Artificial.",
@@ -21,13 +22,14 @@ export const projects = [
     id: 2,
     name: "🧱 Stackgen",
     mainColor: "#01A9A0",
+    secondaryColor: "#719fb0",
     img: "portfolio/stackgen.jpg",
     description:
       "StackGen te genera un png con tu stack favorito, bueno, en ocasiones, no tan tecnólogico 😜 Escoge hasta tu cafetera. ",
     repository: "https://github.com/DianaIT/stackgen",
     deploy: "https://stackgen.vercel.app ",
     stack: [
-      { id: 1, name: "react", width: defaultWith + 20, extension: ".svg" },
+      { id: 1, name: "react", width: defaultWith + 30, extension: ".png" },
       {
         id: 2,
         name: "styledComponents",
@@ -41,6 +43,7 @@ export const projects = [
     id: 3,
     name: "📺 Front & Series",
     mainColor: "#416DAB",
+    secondaryColor: "#719fb0",
     img: "portfolio/seriesandfront.jpg",
     description:
       "Blog de series y desarrollo web. Me gusta mezclar cosas. Tras aprender React, quería probar Next.js, y esta fue la excusa perfecfa.",
@@ -55,13 +58,14 @@ export const projects = [
     id: 4,
     name: "🤖 Jinkobot",
     mainColor: "#AB1E1F",
+    secondaryColor: "#719fb0",
     img: "portfolio/jinkobot.jpg",
     description:
       "Su nombre es Jinko y es un robot para apoyo en terapia con niños con TEA.",
     repository: "https://github.com/DianaIT/JinkoRobotics/tree/develop",
     deploy: "",
     stack: [
-      { id: 1, name: "ionic", width: defaultWith + 40, extension: ".svg" },
+      { id: 1, name: "ionic", width: defaultWith + 60, extension: ".png" },
       { id: 2, name: "angular", width: defaultWith + 20, extension: ".svg" },
       { id: 3, name: "python", width: defaultWith + 20, extension: ".svg" },
       { id: 4, name: "ros", width: 80, extension: ".png" },
@@ -71,13 +75,14 @@ export const projects = [
     id: 5,
     name: "🚲 EcoHolder",
     mainColor: "#53D485",
+    secondaryColor: "#719fb0",
     img: "portfolio/ecoHolder.JPG",
     description:
       "Mide la contaminación de tu zona. Nuestra app te muestra un mapa y al escoger un destino se te aconseja cuales son las rutas con el menor nivel de gases perjudiciales.",
     repository: "https://github.com/DianaIT/ecoHolder",
     deploy: "",
     stack: [
-      { id: 1, name: "ionic", width: defaultWith + 40, extension: ".svg" },
+      { id: 1, name: "ionic", width: defaultWith + 60, extension: ".png" },
       { id: 2, name: "angular", width: defaultWith + 20, extension: ".svg" },
       { id: 3, name: "nodejs", width: defaultWith + 20, extension: ".svg" },
       { id: 4, name: "firebase", width: defaultWith + 30, extension: ".svg" },

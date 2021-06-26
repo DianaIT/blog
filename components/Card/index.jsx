@@ -13,6 +13,7 @@ import {
 export default function Card({
   title,
   mainColor,
+  secondaryColor,
   img,
   listOfStack,
   description,
@@ -44,8 +45,8 @@ export default function Card({
         
         </ListOfLogos>
               <ContainerLinks>
-        { repository && <Anchor href={ repository }>Ver Código</Anchor>}
-        { deploy && <Anchor href={deploy}>Ver Demo</Anchor> }
+          {repository && <Anchor href={ repository }>Ver Código</Anchor>}
+        { deploy && <Anchor  href={deploy}>Ver Demo</Anchor> }
         </ContainerLinks>
       </section>
      

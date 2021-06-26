@@ -46,6 +46,10 @@ export const Anchor = styled.a`
   display: block;
   margin: 8px;
   border-radius: 5px;
+  box-shadow: 2px 2px 2px;
+  &:hover {
+    box-shadow: none;
+  }
 `
 
 export const ContainerLinks = styled.section`
