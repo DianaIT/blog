@@ -63,7 +63,6 @@ export const projects = [
     stack: [
       { id: 1, name: "ionic", width: defaultWith + 40, extension: ".svg" },
       { id: 2, name: "angular", width: defaultWith + 20, extension: ".svg" },
-
       { id: 3, name: "python", width: defaultWith + 20, extension: ".svg" },
       { id: 4, name: "ros", width: 80, extension: ".png" },
     ],
@@ -81,6 +80,7 @@ export const projects = [
       { id: 1, name: "ionic", width: defaultWith + 40, extension: ".svg" },
       { id: 2, name: "angular", width: defaultWith + 20, extension: ".svg" },
       { id: 3, name: "nodejs", width: defaultWith + 20, extension: ".svg" },
+      { id: 4, name: "firebase", width: defaultWith + 30, extension: ".svg" },
     ],
   },
 ]
