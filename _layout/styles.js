@@ -60,7 +60,8 @@ export const styles = css.global`
 
   @media (min-width: 1000px) {
     main {
-      max-width: 70%;
+      width: 170vh;
+      margin: 0 auto;
     }
 
     :global(p) {
