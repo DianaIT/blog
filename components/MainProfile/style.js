@@ -42,7 +42,8 @@ export const Text = styled.p`
   text-align: center;
 
   @media (max-width: 768px) {
-    max-width: 80%;
+    max-width: 90vh;
     margin-left: 0;
+    font-size: 1.7rem;
   }
 `
