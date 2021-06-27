@@ -3,7 +3,6 @@ import Head from "next/head"
 import styles from "./styles"
 import Link from "next/link"
 import Menu from "components/Menu"
-import Social from "components/social/index"
 import { useRouter } from "next/router"
 
 function Header() {
@@ -28,7 +27,6 @@ function Header() {
                 />
               </a>
             </Link>
-            <Social props={["linkedin", "github", "twitter", "feed"]} />
           </>
         ) : (
           <Menu />
@@ -41,3 +39,5 @@ function Header() {
 }
 
 export default React.memo(Header)
+
+//  <Social props={["linkedin", "github", "twitter", "feed"]} />
