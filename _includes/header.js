@@ -1,13 +1,9 @@
 import React from "react"
 import Head from "next/head"
 import styles from "./styles"
-import Link from "next/link"
 import Menu from "components/Menu"
-import { useRouter } from "next/router"
 
 function Header() {
-  const router = useRouter()
-  const location = router.pathname
   return (
     <>
       <Head>
@@ -16,22 +12,13 @@ function Header() {
         <link rel="shortcut icon" type="icon" href="./img/favicon.ico" />
       </Head>
       <header>
-        {location !== "/" && location !== "/portfolio" ? (
-          <>
-            <Link href={location === "/blog" ? "/" : "/blog"}>
-              <a>
-                <img
-                  style={{ width: "200px", height: "170px" }}
-                  src="../img/SFlogo_large.PNG"
-                  alt="Series & Front"
-                />
-              </a>
-            </Link>
-          </>
-        ) : (
-          <Menu />
-        )}
+        <Menu />
       </header>
+      <img
+        style={{ width: "200px", height: "170px" }}
+        src="../img/SFlogo_large.PNG"
+        alt="Series & Front"
+      />
 
       <style jsx>{styles}</style>
     </>
