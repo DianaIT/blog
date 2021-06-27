@@ -14,7 +14,7 @@ export const styles = css.global`
   }
 
   main {
-    max-width: 100%;
+    width: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,7 +60,8 @@ export const styles = css.global`
 
   @media (min-width: 1000px) {
     main {
-      max-width: 70%;
+      width: 170vh;
+      margin: 0 auto;
     }
 
     :global(p) {

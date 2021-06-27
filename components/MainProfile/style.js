@@ -16,7 +16,8 @@ export const BackgroundImage = styled.section`
   transform: rotate(10deg);
   @media (max-width: 768px) {
     margin-bottom: 6vh;
-    width: 50%;
+    width: 70vh;
+    transform: rotate(-5deg);
   }
 `
 
@@ -42,7 +43,8 @@ export const Text = styled.p`
   text-align: center;
 
   @media (max-width: 768px) {
-    max-width: 80%;
+    max-width: 90vh;
     margin-left: 0;
+    font-size: 1.7rem;
   }
 `

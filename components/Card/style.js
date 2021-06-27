@@ -5,10 +5,16 @@ export const Container = styled.div`
   padding: 0.5rem;
   display: flex;
   border-radius: 5px;
+  @media (max-width: 768px) {
+    width: 90vh;
+  }
 `
 
 export const Image = styled.img`
   width: 70vh;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const Title = styled.p`
