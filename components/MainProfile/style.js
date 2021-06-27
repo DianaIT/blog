@@ -16,7 +16,8 @@ export const BackgroundImage = styled.section`
   transform: rotate(10deg);
   @media (max-width: 768px) {
     margin-bottom: 6vh;
-    width: 50%;
+    width: 70vh;
+    transform: rotate(-5deg);
   }
 `
 
