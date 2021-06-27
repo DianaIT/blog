@@ -14,7 +14,7 @@ export const styles = css.global`
   }
 
   main {
-    max-width: 100%;
+    width: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
