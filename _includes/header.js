@@ -2,8 +2,11 @@ import React from "react"
 import Head from "next/head"
 import styles from "./styles"
 import Menu from "components/Menu"
+import { useRouter } from "next/router"
 
 function Header() {
+  const router = useRouter()
+  const location = router.pathname
   return (
     <>
       <Head>
@@ -14,11 +17,13 @@ function Header() {
       <header>
         <Menu />
       </header>
-      <img
-        style={{ width: "200px", height: "170px" }}
-        src="../img/SFlogo_large.PNG"
-        alt="Series & Front"
-      />
+      {location === "/blog" && (
+        <img
+          style={{ width: "200px", height: "170px" }}
+          src="../img/SFlogo_large.PNG"
+          alt="Series & Front"
+        />
+      )}
 
       <style jsx>{styles}</style>
     </>
